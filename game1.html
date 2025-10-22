@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Guessr - Avatar Edition</title>
+    <link rel="stylesheet" href="assets/css/game1.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="game-header">
+        <div class="nav-logo">
+            <a href="index.html">
+                <!-- TODO: Replace with actual logo image -->
+                <img src="assets/images/Aang.fun logo white.png" alt="Site Logo" class="nav-logo-img">
+            </a>
+        </div>
+        <nav class="game-nav">
+            <a href="index.html">Home</a>
+            <a href="game1.html">AvaGuessr</a>
+            <a href="game2.html">Game 2</a>
+            <a href="game3.html">Game 3</a>
+            <a href="game4.html">Game 4</a>
+            <a href="game5.html">Game 5</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Game container -->
+    <main class="game-container">
+        <!-- Game logo and instructions -->
+        <div class="game-intro">
+            <!-- TODO: Replace with actual game logo -->
+            <a href="game1.html">
+                <img src="assets/images/Avaguessr logo.png" alt="Character Guessr Logo" class="game-logo">
+            </a>
+        </div>
+
+        <!-- Game settings -->
+        <div class="game-settings" id="gameSettings">
+            <div class="game-instructions">
+                <h2 class="instructions-title">HOW TO PLAY</h2>
+                <p>Type a character's name into the box, and the<br>game will show you information about that character.</p>
+                
+                <div class="instruction-boxes">
+                    <div class="instruction-box green">
+                        Green means the info matches the hidden character.
+                    </div>
+                    <div class="instruction-box yellow">
+                        Yellow means it partially matches.
+                    </div>
+                    <div class="instruction-box red">
+                        Red means it doesn't match.
+                    </div>
+                </div>
+                
+                <p>Use the hints to narrow down until you<br>guess the right character!</p>
+            </div>
+            <!-- Settings button to open modal -->
+            <button id="settingsButton" class="settings-button">Settings</button>
+            <button id="playButton" class="play-button" disabled>Play</button>
+
+        </div>
+
+        <!-- Game area (hidden until play is clicked) -->
+        <div class="game-area" id="gameArea" style="display: none;">
+            <div class="game-controls">
+                <button id="howToPlayButton" class="control-button">How to Play</button>
+                <button id="hintButton" class="control-button">Hint</button>
+                <button id="giveUpButton" class="give-up-button">Give Up</button>
+            </div>
+            <!-- Hint display container -->
+            <div id="hintDisplay" class="hint-display" style="display: none;">
+                <div class="hint-content">
+                    <span class="hint-title">Hint 1:</span>
+                    <span class="hint-text"></span>
+                </div>
+            </div>
+            <div class="guess-input-container">
+                <input type="text" id="characterInput" placeholder="Enter character name...">
+                <div id="autoComplete" class="autocomplete-items"></div>
+            </div>
+            <div id="columnHint" class="column-hint" style="display: none;">
+                Click the column headers to see all possible values
+            </div>
+            <div id="guessRows" class="guess-rows"></div>
+            <div id="scrollHint" class="scroll-hint" style="display: none;">
+                Scroll →
+            </div>
+            <div id="gameComplete" class="game-complete" style="display: none;">
+                <div id="characterImageWrapper" class="character-image-wrapper">
+                    <img id="characterImage" class="character-image" alt="Character" style="display: none;">
+                </div>
+                <p id="successMessage"></p>
+                <button id="gameCompleteSettingsButton" class="settings-button">Settings</button>
+                <button id="replayButton" class="replay-button">Play Again</button>
+                
+            </div>
+        </div>
+
+        <!-- Instructions Overlay -->
+        <div id="instructionsOverlay" class="instructions-overlay" style="display: none;">
+            <div class="overlay-content">
+                <button id="closeInstructions" class="close-button">&times;</button>
+                <div class="game-instructions">
+                    <h2 class="instructions-title">HOW TO PLAY</h2>
+                    <p>Type a character's name into the box, and the<br>game will show you information about that character.</p>
+                    
+                    <div class="instruction-boxes">
+                        <div class="instruction-box green">
+                            Green means the info matches the hidden character.
+                        </div>
+                        <div class="instruction-box yellow">
+                            Yellow means it partially matches.
+                        </div>
+                        <div class="instruction-box red">
+                            Red means it doesn't match.
+                        </div>
+                    </div>
+                    
+                    <p>Use the hints to narrow down until you<br>guess the right character!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Column Info Overlay -->
+        <div id="columnInfoOverlay" class="column-info-overlay">
+            <div class="column-info-content">
+                <button id="closeColumnInfo" class="column-info-close">&times;</button>
+                <h2 id="columnInfoTitle" class="column-info-title"></h2>
+                <ul id="columnInfoList" class="column-info-list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Settings Modal Overlay -->
+    <div id="settingsModal" class="settings-modal" style="display: none;">
+        <div class="settings-modal-content">
+            <span class="settings-close">&times;</span>
+            <h2 class="settings-title">Character Settings</h2>
+            <p class="checkbox-header">Include Characters from:</p>
+            <div class="checkbox-container">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="atla" checked>
+                    <label for="atla">Avatar: The Last Airbender</label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="lok" checked>
+                    <label for="lok">The Legend of Korra</label>
+                </div>
+
+                <div class="checkbox-group has-submenu">
+                    <input type="checkbox" id="comics" checked>
+                    <label for="comics">Comics</label>
+                    <div class="submenu">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="avatar-comics" checked>
+                                <label for="avatar-comics">Avatar Comics</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="korra-comics" checked>
+                                <label for="korra-comics">Korra Comics</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="checkbox-group has-submenu">
+                        <input type="checkbox" id="novels" checked>
+                        <label for="novels">Novels</label>
+                        <div class="submenu">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="kyoshi-novels" checked>
+                                <label for="kyoshi-novels">Kyoshi Novels</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="yangchen-novels" checked>
+                                <label for="yangchen-novels">Yangchen Novels</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="roku-novels" checked>
+                                <label for="roku-novels">Roku Novels</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="avatar-novels" checked>
+                                <label for="avatar-novels">Avatar Novels</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/game1.js"></script>
+</body>
+</html>

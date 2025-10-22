@@ -1,0 +1,1279 @@
+/* Game page specific background */
+body {
+    background-image: url("../images/game1images/game_background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #1a1a1a; /* Fallback color that matches the background */
+}
+
+/* Game container styles */
+.game-container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
+
+@font-face {
+    font-family: "LockeRegular";
+    src: url("../fonts/Locke-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "AvatarAirbender";
+    src: url("../fonts/AvatarAirbender.woff2") format("woff2");
+}
+
+/* G.instruction-box {
+    flex: 1;
+    max-width: 85px;
+    padding: 0.5rem;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+        font-family: "LockeRegular", Arial, sans-serif;
+}es */
+.game-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.game-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.game-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.game-nav a:hover {
+    color: #ffd700;
+}
+
+/* Game intro styles */
+.game-intro {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    width: 100%;
+    line-height: 0;
+}
+
+.game-logo {
+    max-width: min(500px, 90vw);
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* Game area spacer to center input bar vertically */
+.game-area {
+    margin-top: 8vh;
+}
+
+/* Column hint text styling */
+.column-hint {
+    text-align: center;
+    color: white;
+    font-family: "SpiritITC", Arial, sans-serif;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Hint display styling */
+.hint-display {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0.8rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hint-content {
+    color: white;
+    font-family: "SpiritITC", Arial, sans-serif;
+}
+
+.hint-title {
+    font-weight: bold;
+    color: #4caf50;
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+.hint-text {
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Scroll hint text styling - only visible when scrolling is needed */
+.scroll-hint {
+    display: none;
+    text-align: center;
+    color: white;
+    font-family: "SpiritITC", Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: -1rem 0 2rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 10;
+    order: -1; /* Ensure it appears right after the table */
+}
+
+/* Unified .game-instructions appearance in both game-settings and game-area */
+.game-instructions {
+    background-image: url("../images/game1images/AvatarPlacard.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1.6;
+    padding: 0.5%;
+    border-radius: 8px;
+    margin: 0 auto 0.25rem auto;
+    text-align: center;
+    line-height: 0.9;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+/* Style for the top and bottom text */
+.instructions-title {
+    color: black;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    margin: 0 0 clamp(0.5rem, 1.5vw, 0.8rem) 0;
+    font-weight: bold;
+    font-family: "SpiritITC", Arial, sans-serif;
+}
+
+.game-instructions > p {
+    color: black;
+    margin: 0;
+    max-width: 90%;
+    padding: 0 1%;
+    font-family: "Herculanum", Arial, sans-serif;
+    font-size: clamp(0.8rem, 2.2vw, 1.1rem);
+}
+
+.game-instructions > p:last-child {
+    font-family: "Herculanum", Arial, sans-serif;
+    font-style: normal;
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
+    margin-top: clamp(1rem, 3.5vw, 1.4rem);
+}
+
+.game-instructions br {
+    display: block;
+    content: "";
+}
+
+
+/* Instruction boxes styles */
+.instruction-boxes {
+    display: flex;
+    justify-content: center;
+    gap: clamp(0.3rem, 1vw, 0.5rem);
+    margin: clamp(1rem, 3.5vw, 1.4rem) 0;
+    width: 100%;
+    max-width: 85%;
+}
+
+.instruction-box {
+    width: clamp(60px, 14vw, 85px);
+    height: clamp(60px, 14vw, 85px);
+    padding: clamp(0.3rem, 1vw, 0.5rem);
+    border-radius: clamp(4px, 1vw, 6px);
+    color: white;
+    font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: "LockeRegular", Arial, sans-serif;
+    flex-shrink: 0;
+}
+
+.instruction-box.green {
+    background-color: #4b864d;
+    font-family: 'LockeRegular', Arial, sans-serif;
+
+}
+
+.instruction-box.yellow {
+    background-color: #fde13f;
+    color: black;
+    font-family: 'LockeRegular', Arial, sans-serif;
+}
+
+.instruction-box.red {
+    background-color: #c94a40;
+    align-items: center;
+    font-family: 'LockeRegular', Arial, sans-serif;
+}
+
+.game-instructions > p:first-child {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.game-instructions > p:last-child {
+    margin-top: -0.3rem;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* Checkbox styles */
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.checkbox-group {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group.has-submenu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #2a2a2a;
+    padding: 0.6rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    min-width: 160px;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.checkbox-group.has-submenu:hover .submenu {
+    display: block;
+}
+
+.checkbox-group.has-submenu:hover::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: transparent;
+}
+
+.column-header,
+.guess-cell {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Hide control buttons when game is over */
+.game-won .game-controls {
+    display: none;
+}
+
+/* Ensure checkboxes are visible on replay screen */
+.game-won .checkbox-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.checkbox-group.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu .checkbox-group {
+    margin: 0.3rem 0;
+    padding: 0.3rem;
+}
+
+.checkbox-group {
+    margin: 0.5rem 0;
+    position: relative;
+}
+
+.checkbox-group label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.has-submenu {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.submenu {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Game area styles */
+.guess-input-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#characterInput {
+    width: min(900px, 90vw);
+    max-width: 900px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 50%;
+    width: min(900px, 90vw);
+    max-width: 900px;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* Mobile responsive sizing for input and autocomplete */
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .guess-input-container {
+        padding: 0 7.5vw; /* Center the input and create proper bounds */
+        box-sizing: border-box;
+    }
+    
+    #characterInput {
+        width: 100%; /* Fill the constrained container */
+        max-width: none;
+    }
+    
+    .autocomplete-items {
+        position: absolute;
+        width: 100%; /* Use full width of the constrained container */
+        max-width: none;
+        left: 0; /* Align with container, not viewport */
+        transform: none; /* Remove centering transform */
+        top: 100%;
+        z-index: 1000;
+        max-height: 200px;
+        overflow-y: auto;
+        box-sizing: border-box;
+    }
+    
+    /* Prevent viewport changes when keyboard appears */
+    .game-container {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    /* Mobile keyboard handling - no transforms needed as browser handles automatically */
+    
+    /* Ensure background stays fixed but allow scrolling */
+    html {
+        overflow-x: hidden;
+    }
+    
+    body.input-focused {
+        overflow-y: auto;
+    }
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    font-family: "SpiritITC", Arial, sans-serif;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-items div.selected {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Game controls styles */
+.game-controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+/* Mobile layout: how to play & hint on top, give up below */
+@media (max-width: 600px) {
+    .game-controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "howto hint"
+            "giveup giveup";
+        gap: 0.5rem;
+        justify-content: center;
+        margin: 0 0 2rem 0;
+    }
+    
+    .control-button {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.7rem;
+        min-width: auto;
+        width: 80px;
+        height: 35px;
+        margin: 0 auto;
+    }
+    
+    .control-button:nth-child(1) { grid-area: howto; }
+    .control-button:nth-child(2) { grid-area: hint; }
+    
+    .give-up-button {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.7rem;
+        min-width: auto;
+        grid-area: giveup;
+    }
+    
+    /* Left align autocomplete text on mobile */
+    .autocomplete-items div {
+        text-align: left;
+    }
+    
+    .game-intro {
+        margin-bottom: 0.5rem;
+    }
+    
+    .game-logo {
+        margin-bottom: 0;
+    }
+    
+    /* Scale down headers and cells for mobile */
+    .column-headers {
+        min-height: 30px;
+        padding: 0.1rem 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .column-header {
+        height: 35px;
+        padding: 0.3rem;
+        font-size: clamp(0.9rem, 2.2vw, 1.2rem);
+    }
+    
+    .column-header,
+    .guess-cell {
+        padding: 0.3rem;
+        font-size: clamp(0.8rem, 1.8vw, 1rem);
+        min-width: 70px;
+    }
+    
+    /* Scale down table wrapper proportionally for mobile and extend to edges */
+    .table-scroll-wrapper {
+        transform: scale(0.85);
+        transform-origin: top center;
+        width: 100vw !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box;
+    }
+    
+    /* Override game container constraints on mobile */
+    .game-container {
+        padding: 0 !important;
+        max-width: none !important;
+        width: 100vw !important;
+        overflow-x: hidden;
+    }
+    
+    /* Mobile hint display styling */
+    .hint-display {
+        margin: 0.8rem 1rem;
+        padding: 0.6rem 0.8rem;
+        max-width: calc(100vw - 2rem);
+    }
+    
+    .hint-title {
+        font-size: 1rem;
+    }
+    
+    .hint-text {
+        font-size: 0.9rem;
+    }
+    
+    /* Arrange checkboxes in specific rows of 2 on mobile - applies to both game settings and game over */
+    .checkbox-container,
+    .game-won .checkbox-container {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5r;
+        row-gap: 0.5rem;
+        max-width: 75%;
+        justify-items: center;
+        flex-direction: initial;
+        margin: 0 auto;
+    }
+    
+    .checkbox-group,
+    .game-won .checkbox-group {
+        width: 100% !important;
+        min-width: 80px;
+        max-width: 120px;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.75rem;
+        height: auto;
+        min-height: 35px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .checkbox-group label,
+    .game-won .checkbox-group label {
+        line-height: 1.2;
+        word-wrap: break-word;
+        hyphens: auto;
+        white-space: normal;
+    }
+    
+    .checkbox-header {
+        min-width: 150px;
+        max-width: 180px;
+        width: 90vw;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+        background-size: 100% 100%;
+    }
+    
+    /* Scale down game controls buttons for mobile */
+    .control-button,
+    .give-up-button {
+        min-width: 100px;
+        min-height: 30px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+.play-button, .replay-button {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 200px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-image: url("../images/game1images/ancientscroll.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(5px 5px 10px #333333);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: none;
+    font-family: "AvatarAirbender", Arial, sans-serif;
+    min-width: 220px;
+}
+
+/* .play-button:hover, .replay-button:hover {
+    background-color: #45a049;
+} */
+
+.give-up-button {
+    background-image: url("../images/game1images/button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    color: #c94a40;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'SpiritITC', Arial, sans-serif !important;
+    min-width: 160px;
+    min-height: 50px;
+    font-size: 1.1rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s ease;
+}
+
+.give-up-button:hover {
+    transform: scale(1.1);
+    background-image: url("../images/game1images/give_up.png");
+    color: white;
+}
+
+/* Control buttons (How to Play and Hint) */
+.control-button {
+    background-image: url("../images/game1images/button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    color: #c94a40;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'SpiritITC', Arial, sans-serif !important;
+    min-width: 160px;
+    min-height: 50px;
+    font-size: 1.1rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s ease;
+}
+
+.control-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Individual button colors */
+#howToPlayButton {
+    color: #4a7bc8;
+}
+
+#howToPlayButton:hover {
+    background-image: url("../images/game1images/how_to_play.png");
+    color: white;
+}
+
+#hintButton {
+    color: #4caf50;
+}
+
+#hintButton:hover {
+    background-image: url("../images/game1images/hint.png");
+    color: white;
+}
+
+/* Settings button */
+.settings-button {
+    background-image: url("../images/game1images/settings.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'SpiritITC', Arial, sans-serif !important;
+    min-width: 160px;
+    min-height: 50px;
+    font-size: 1.1rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s ease;
+    display: block;
+    margin: 1rem auto;
+}
+
+.settings-button:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+}
+
+/* Give up button keeps red color (#c94a40) from .give-up-button class */
+
+/* Instructions Overlay */
+.instructions-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.close-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Game instructions styling when in overlay - sized to fit properly */
+.instructions-overlay .game-instructions {
+    max-width: 650px;
+    width: 80vw;
+}
+
+/* Column info overlay styles */
+.column-info-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-info-content {
+    position: relative;
+    max-width: 500px;
+    width: 85vw;
+    max-height: 80vh;
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.column-info-title {
+    font-family: "SpiritITC", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.column-info-list {
+    font-family: "LockeRegular", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.column-info-list li {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.column-info-list li:last-child {
+    border-bottom: none;
+}
+
+.column-info-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.column-info-close:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Guess rows styles */
+.guess-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 2rem;
+}
+
+/* Table scroll wrapper for headers and rows */
+.table-scroll-wrapper {
+    width: 100;
+}
+
+/* Horizontal scroll for the entire table on small screens */
+@media (max-width: 1200px) {
+    .table-scroll-wrapper {
+        overflow-x: auto;
+        overflow-y: visible;
+        padding-bottom: 0.5rem;
+    }
+    
+    .column-headers,
+    .guess-rows,
+    .guess-row {
+        min-width: 1200px;
+        flex-shrink: 0;
+    }
+}
+
+/* No scroll on larger screens */
+@media (min-width: 1201px) {
+    .table-scroll-wrapper {
+        overflow-x: visible;
+    }
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.column-headers,
+.guess-row {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column-headers {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    padding: 0.25rem 2rem;
+    min-height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.column-headers::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/game1images/column_paint_header.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(0.5deg);
+    z-index: -1;
+}
+
+.column-header,
+.guess-cell {
+    flex: 1;
+    min-width: 80px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(0.9rem, 1.5vw, 0.9rem);
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.column-header {
+    aspect-ratio: auto;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: "SpiritITC", Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-size: clamp(01.1rem, 2vw, 1.2rem);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.column-header:hover {
+    color: #ffd700;
+}
+
+.guess-cell {
+    aspect-ratio: 1;
+}
+
+.guess-cell {
+    transition: all 0.3s ease;
+    opacity: 0;
+    font-family: "LockeRegular", Arial, sans-serif;
+}
+
+.guess-cell.correct {
+    background-color: #4b864d;
+    color: white;
+    font-family: "LockeRegular", Arial, sans-serif;
+}
+
+.guess-cell.partial {
+    background-color: #fde13f;
+    color: black;
+    font-family: "LockeRegular", Arial, sans-serif;
+
+}
+
+.guess-cell.incorrect {
+    background-color: #c94a40;
+    color: white;
+    font-family: "LockeRegular", Arial, sans-serif;
+
+}
+
+/* Game complete styles */
+.game-complete {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.character-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.character-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #333;
+    background: #222;
+}
+
+#successMessage {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Hide input area and instructions after win */
+.game-won .guess-input-container {
+    display: none;
+}
+
+.game-won .column-hint {
+    display: none;
+}
+
+.game-won .game-instructions {
+    display: none !important;
+}
+
+/* Show checkboxes in replay screen */
+.game-won .checkbox-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.checkbox-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-image: url("../images/game1images/blackbrush.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.8rem 2.5rem;
+    border-radius: 8px;
+    display: block;
+    width: fit-content;
+    min-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}/* Add these styles at the end of your game1.css file */
+
+/* Change colored boxes font to Herculanum */
+.instruction-box,
+.guess-row > div:not(.guess-input) {
+    font-family: "LockeRegular", Arial, sans-serif;
+}
+
+/* Change Play and Play Again buttons to Herculanum */
+#playButton,
+#replayButton {
+    font-family: "AvatarAirbender", Arial, sans-serif;
+}
+
+/* nothing *//* Updated button styles */
+.play-button, .replay-button {
+    background-image: url("../images/game1images/ancientscroll.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 28px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2.1rem;
+    margin-top: 1.2rem;
+    transition: transform 0.3s ease;
+    font-family: "AvatarAirbender", Arial, sans-serif;
+    min-width: 220px;
+}
+
+.play-button:hover, .replay-button:hover {
+    transform: scale(1.05);
+}
+
+.play-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.guess-cell-with-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1;
+    min-width: 80px;
+    box-sizing: border-box;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+    overflow: hidden;
+}
+
+.guess-cell-img-wrapper {
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    min-width: 0;
+    aspect-ratio: 1 / 1;
+}
+
+.guess-cell-img {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    display: block;
+    background: #222;
+    max-height: 80%;
+    max-width: 90%;
+}
+
+.guess-cell-name-label {
+    width: 100%;
+    text-align: center;
+    font-size: inherit;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0 2px;
+    word-break: break-word;
+    font-family: inherit;
+    background: none;
+    color: inherit;
+}
+
+/* When image is present, push the name to the bottom */
+.guess-cell-with-image:not(.no-image) {
+    justify-content: flex-end;
+}
+
+/* When image is missing, center the name */
+.guess-cell-with-image.no-image {
+    justify-content: center;
+}
+
+/* Ensure name label takes full space when no image */
+.guess-cell-with-image.no-image .guess-cell-name-label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Settings Modal Overlay */
+.settings-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-modal-content {
+    background-image: url("../images/game1images/character_settings_screen.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 95%;
+    max-width: 950px;
+    min-height: 600px;
+    max-height: 1500px;
+    overflow-y: auto;
+    padding: 2rem;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.settings-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.settings-close:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+.settings-title {
+    text-align: center;
+    color: #8B4513;
+    font-family: 'SpiritITC', Arial, sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+/* Settings modal mobile adjustments */
+@media (max-width: 600px) {
+    .settings-modal-content {
+        background-image: url("../images/game1images/character_settings_screen_mobile.png");
+        width: 95%;
+        max-width: none;
+        padding: 1.5rem;
+    }
+    
+    .settings-close {
+        top: 10px;
+        right: 15px;
+        font-size: 1.8rem;
+    }
+    
+    .settings-title {
+        font-size: 1.3rem;
+    }
+}
