@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Main CSS -->
+      <link href="assets/css/main.css" rel="stylesheet">
+
+    <title>Avatar Character Guesser | Lincoln Steele</title>
+    
+    <style>
+      /* Game embed styles */
+      .game-embed-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 180px 20px 60px 20px;
+        background-color: #FFF;
+      }
+      
+      .game-frame-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #FFF;
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        border: 1px solid #E5E5E5;
+      }
+      
+      .game-header {
+        background: linear-gradient(135deg, #3d90e6 0%, #2c7bd9 100%);
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+      }
+      
+      .game-header h1 {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      .game-header p {
+        font-size: 16px;
+        margin: 8px 0 0 0;
+        opacity: 0.9;
+        font-weight: 300;
+      }
+      
+      .iframe-container {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background-color: #f8f9fa;
+      }
+      
+      .game-iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+        overflow: hidden;
+      }
+      
+      .game-controls {
+        padding: 20px 30px;
+        background-color: #f8f9fa;
+        border-top: 1px solid #E5E5E5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      
+      .fullscreen-btn {
+        background: linear-gradient(135deg, #3d90e6 0%, #2c7bd9 100%);
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      .fullscreen-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 15px rgba(61, 144, 230, 0.3);
+      }
+      
+      .back-link {
+        color: #3d90e6;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+      }
+      
+      .back-link:hover {
+        color: #2c7bd9;
+        text-decoration: none;
+      }
+      
+      /* Mobile responsive */
+        @media (max-width: 768px) {
+        .game-embed-container {
+          padding: 160px 10px 40px 10px;
+        }        .game-frame-wrapper {
+          border-radius: 12px;
+        }
+        
+        .game-header {
+          padding: 15px 20px;
+        }
+        
+        .game-header h1 {
+          font-size: 22px;
+        }
+        
+        .game-header p {
+          font-size: 14px;
+        }
+        
+        .iframe-container {
+          aspect-ratio: 4 / 3;
+        }
+        
+        .game-controls {
+          padding: 15px 20px;
+          flex-direction: column;
+          text-align: center;
+        }
+        
+        .fullscreen-btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .iframe-container {
+          aspect-ratio: 1 / 1;
+        }
+        
+        .game-header h1 {
+          font-size: 20px;
+        }
+      }
+      
+      /* Loading state */
+      .loading-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: #666;
+        transition: opacity 0.3s ease;
+      }
+      
+      .loading-overlay.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <!-- header -->
+    <header class="ds-header" id="site-header">
+        <div class="container">
+            <div class="ds-header-inner">
+              <!-- logo -->
+              <a href="index.html" class="ds-logo">
+                <span>L</span>Lincoln Steele
+              </a>
+              <!-- logo -->
+              <!-- social -->
+              <ul class="ds-social">
+                <li><a href="#" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="#" target="_blank"><i class="ri-stack-overflow-line"></i></a></li>
+                <li><a href="www.linkedin.com/in/lincolndsteele" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+              </ul>
+              <!-- social -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- Game Embed Container -->
+    <div class="game-embed-container">
+      <div class="game-frame-wrapper">
+        <div class="game-header">
+          <h1>Avatar Character Guesser</h1>
+          <p>A Wordle-inspired guessing game featuring characters from Avatar: The Last Airbender</p>
+        </div>
+        
+        <div class="iframe-container">
+          <iframe 
+            id="gameIframe" 
+            class="game-iframe" 
+            src="game1.html"
+            title="Avatar Character Guesser Game"
+            allowfullscreen>
+          </iframe>
+          <div id="loadingOverlay" class="loading-overlay">
+            <div>Loading game...</div>
+          </div>
+        </div>
+        
+        <div class="game-controls">
+          <a href="index.html" class="back-link">
+            <i class="ri-arrow-left-line"></i>
+            Back to Portfolio
+          </a>
+          <button id="fullscreenBtn" class="fullscreen-btn">
+            <i class="ri-fullscreen-line"></i>
+            Go Fullscreen
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      // Fullscreen functionality
+      document.getElementById('fullscreenBtn').addEventListener('click', function() {
+        const iframe = document.getElementById('gameIframe');
+        
+        if (iframe.requestFullscreen) {
+          iframe.requestFullscreen();
+        } else if (iframe.webkitRequestFullscreen) {
+          iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) {
+          iframe.msRequestFullscreen();
+        }
+      });
+      
+      // Hide loading overlay when iframe loads
+      document.getElementById('gameIframe').addEventListener('load', function() {
+        setTimeout(function() {
+          document.getElementById('loadingOverlay').classList.add('hidden');
+        }, 500);
+      });
+      
+      // Header scroll effect (matching main site behavior)
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#site-header').addClass('ds-fixed-header');
+        } else {
+          $('#site-header').removeClass('ds-fixed-header');
+        }
+      });
+    </script>
+  </body>
+</html>
