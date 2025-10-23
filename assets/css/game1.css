@@ -27,6 +27,12 @@ body {
     box-sizing: border-box;
 }
 
+/* When game is active, prevent vertical centering jump */
+.game-container.game-active {
+    justify-content: flex-start;
+    padding-top: 5vh;
+}
+
 @font-face {
     font-family: "LockeRegular";
     src: url("../fonts/Locke-Regular.woff2") format("woff2");
@@ -104,6 +110,28 @@ body {
 .game-area {
     margin-top: 2vh;
     width: 100%;
+}
+
+/* Fixed layout for game area when table appears */
+.game-container.game-active .game-area {
+    position: relative;
+}
+
+.game-container.game-active .game-controls,
+.game-container.game-active .guess-input-container,
+.game-container.game-active .hint-display,
+.game-container.game-active .column-hint {
+    position: relative;
+    z-index: 10;
+}
+
+/* Reserve space for the table area to prevent jumping */
+.game-container.game-active .table-scroll-wrapper {
+    margin-top: 1rem;
+}
+
+.game-container.game-active .guess-rows {
+    min-height: 0;
 }
 
 /* Column hint text styling */

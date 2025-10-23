@@ -193,6 +193,12 @@ function startGame() {
     characterInput.value = '';
     characterInput.focus();
     
+    // Remove game-active class to reset layout for new game
+    const gameContainer = document.querySelector('.game-container');
+    if (gameContainer) {
+        gameContainer.classList.remove('game-active');
+    }
+    
     // Hide column hint text and scroll hint
     const columnHint = document.getElementById('columnHint');
     if (columnHint) {
@@ -478,6 +484,12 @@ function checkGuess(guess) {
 function displayGuess(character, results) {
     // Create table wrapper and headers on first guess
     if (!document.querySelector('.column-headers')) {
+        // Add game-active class to prevent layout jumping
+        const gameContainer = document.querySelector('.game-container');
+        if (gameContainer) {
+            gameContainer.classList.add('game-active');
+        }
+        
         // Create a wrapper for both headers and rows
         const tableWrapper = document.createElement('div');
         tableWrapper.className = 'table-scroll-wrapper';
