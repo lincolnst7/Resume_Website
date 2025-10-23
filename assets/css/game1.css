@@ -95,7 +95,7 @@ body {
 .game-logo {
     max-width: min(500px, 90vw);
     width: 100%;
-    margin-top: -5vh;
+    margin-top: -2vh;
     height: auto;
     margin-bottom: -2rem;
 }
