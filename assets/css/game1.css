@@ -1110,6 +1110,7 @@ body {
     min-width: 270px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "SpiritITC", Arial, sans-serif;
 }/* Add these styles at the end of your game1.css file */
 
 /* Change colored boxes font to Herculanum */
