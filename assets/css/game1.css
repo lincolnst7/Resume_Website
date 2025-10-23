@@ -5,17 +5,12 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
     height: 100vh;
     background-color: #1a1a1a; /* Fallback color that matches the background */
     overflow-x: hidden;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0px 0;
 }
 
 /* Game container styles */
@@ -28,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 40px);
     box-sizing: border-box;
 }
 
@@ -100,6 +95,7 @@ body {
 .game-logo {
     max-width: min(500px, 90vw);
     width: 100%;
+    margin-top: -9vh;
     height: auto;
     margin-bottom: 0.5rem;
 }
@@ -154,14 +150,18 @@ body {
 .scroll-hint {
     display: none;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "SpiritITC", Arial, sans-serif;
     font-size: 1.2rem;
-    margin: -1rem 0 2rem 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 1rem 0 0.5rem 0;
     position: relative;
     z-index: 10;
     order: -1; /* Ensure it appears right after the table */
+    padding-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5), 
+                 -2px -2px 4px rgba(255, 255, 255, 0.5),
+                 2px -2px 4px rgba(255, 255, 255, 0.5),
+                 -2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 /* Unified .game-instructions appearance in both game-settings and game-area */
@@ -185,7 +185,7 @@ body {
     align-items: center;
     gap: 1%;
     position: relative;
-    left: 0;
+    left: -79px;
     transform: translateX(0);
 }
 
@@ -789,7 +789,7 @@ body {
     max-height: 90vh;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 30px;
+    padding: 70px;
 }
 
 .close-button {
@@ -818,8 +818,12 @@ body {
 
 /* Game instructions styling when in overlay - sized to fit properly */
 .instructions-overlay .game-instructions {
-    max-width: 650px;
-    width: 80vw;
+    max-width: 550px !important;
+    width: 70vw !important;
+    padding: 3% 8% 4% 8% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 auto !important;
 }
 
 /* Column info overlay styles */
@@ -1067,6 +1071,7 @@ body {
 #successMessage {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-family: "SpiritITC", Arial, sans-serif;
 }
 
 /* Hide input area and instructions after win */

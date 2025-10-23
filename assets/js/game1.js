@@ -90,13 +90,15 @@ if (window.innerWidth <= 600) {
 // Function to check if scroll hint should be visible
 function updateScrollHintVisibility() {
     const scrollHint = document.getElementById('scrollHint');
-    if (scrollHint && gameActive) {
+    if (scrollHint && gameActive && guessCount > 0) {
         const tableWrapper = document.querySelector('.table-scroll-wrapper');
         if (tableWrapper && tableWrapper.scrollWidth > tableWrapper.clientWidth) {
             scrollHint.style.display = 'block';
         } else {
             scrollHint.style.display = 'none';
         }
+    } else if (scrollHint) {
+        scrollHint.style.display = 'none';
     }
 }
 
@@ -215,41 +217,7 @@ function startGame() {
         instructions.style.display = 'block';
     }
 
-    // Add column headers and table wrapper if they don't exist
-    if (!document.querySelector('.column-headers')) {
-        // Create a wrapper for both headers and rows
-        const tableWrapper = document.createElement('div');
-        tableWrapper.className = 'table-scroll-wrapper';
-        
-        // Create headers
-        const headers = document.createElement('div');
-        headers.className = 'column-headers';
-        const headerNames = ['Name', 'Gender', 'Species', 'Origin', 'Bending', 'Sub-Skills', 'Affiliation', 'Appearances'];
-        headerNames.forEach(name => {
-            const header = document.createElement('div');
-            header.className = 'column-header';
-            header.textContent = name;
-            header.addEventListener('click', () => showColumnInfo(name));
-            headers.appendChild(header);
-        });
-        
-        // Add headers to wrapper
-        tableWrapper.appendChild(headers);
-        
-        // Move guess rows into wrapper
-        guessRows.parentNode.removeChild(guessRows);
-        tableWrapper.appendChild(guessRows);
-        
-        // Insert wrapper into game area
-        gameArea.appendChild(tableWrapper);
-        
-        // Move scroll hint immediately after table wrapper
-        const scrollHint = document.getElementById('scrollHint');
-        if (scrollHint) {
-            scrollHint.parentNode.removeChild(scrollHint);
-            gameArea.insertBefore(scrollHint, tableWrapper.nextSibling);
-        }
-    }
+    // Headers and table wrapper will be created on first guess
 
     // Hide column headers initially until first guess
     const columnHeaders = document.querySelector('.column-headers');
@@ -497,6 +465,42 @@ function checkGuess(guess) {
 
 // Display guess results
 function displayGuess(character, results) {
+    // Create table wrapper and headers on first guess
+    if (!document.querySelector('.column-headers')) {
+        // Create a wrapper for both headers and rows
+        const tableWrapper = document.createElement('div');
+        tableWrapper.className = 'table-scroll-wrapper';
+        
+        // Create headers
+        const headers = document.createElement('div');
+        headers.className = 'column-headers';
+        const headerNames = ['Name', 'Gender', 'Species', 'Origin', 'Bending', 'Sub-Skills', 'Affiliation', 'Appearances'];
+        headerNames.forEach(name => {
+            const header = document.createElement('div');
+            header.className = 'column-header';
+            header.textContent = name;
+            header.addEventListener('click', () => showColumnInfo(name));
+            headers.appendChild(header);
+        });
+        
+        // Add headers to wrapper
+        tableWrapper.appendChild(headers);
+        
+        // Move guess rows into wrapper
+        guessRows.parentNode.removeChild(guessRows);
+        tableWrapper.appendChild(guessRows);
+        
+        // Insert wrapper into game area
+        gameArea.appendChild(tableWrapper);
+        
+        // Move scroll hint immediately after table wrapper
+        const scrollHint = document.getElementById('scrollHint');
+        if (scrollHint) {
+            scrollHint.parentNode.removeChild(scrollHint);
+            gameArea.insertBefore(scrollHint, tableWrapper.nextSibling);
+        }
+    }
+    
     const row = document.createElement('div');
     row.className = 'guess-row';
 
