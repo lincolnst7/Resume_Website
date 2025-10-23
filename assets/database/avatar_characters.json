@@ -2168,7 +2168,7 @@
     ],
     "Affiliation/Group": [
       "Team Avatar",
-      "Kyoshi Warriors"
+      "Kyoshi Warriors", "Boiling Rock Prisoners"
     ],
     "Appearances": [
       "Avatar: The Last Airbender",
@@ -2194,7 +2194,7 @@
     "Affiliation/Group": [
       "Team Avatar",
       "Fire Nation Royal Family",
-      "Bending Instructor"
+      "Bending Instructor", "Boiling Rock Prisoners"
     ],
     "Appearances": [
       "Avatar: The Last Airbender",
@@ -2466,7 +2466,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Kuvira.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Stop groveling as if this is the worst day of your life. This is a good day.”"]
   },
   {
     "Name": "Rohan",
@@ -2515,7 +2515,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Avatar_Wan.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Haven't you heard the legends? I'm not a regular human anymore.”"]
   },
   {
     "Name": "Wan Shi Tong",
@@ -2537,7 +2537,7 @@
       "Roku Novels"
     ],
     "Image": "images/characters/Wan_Shi_Tong.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You think you're the first person to believe their war was justified?”"]
   },
   {
     "Name": "Mula",
@@ -2672,7 +2672,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Rangi.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“If I were better at my job you would never feel scared. Only loved. Adored by all.”"]
   },
   {
     "Name": "Jianzhu",
@@ -2694,7 +2694,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Jianzhu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“The responsibility of keeping the Earth Kingdom stable and in balance with the other nations rightfully belongs to the Avatar. I'm only a stopgap measure. A substitute.”"]
   },
   {
     "Name": "Kelsang",
@@ -2716,7 +2716,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Kelsang.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I violated my beliefs as an airbender. I let my teachers down. I let my entire people down.”"]
   },
   {
     "Name": "Hei-Ran",
@@ -2738,7 +2738,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Hei_Ran.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“The stability of the Fire Nation is more important than my life.”"]
   },
   {
     "Name": "Tagaka",
@@ -2760,7 +2760,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Tagaka.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“How would you like a taste of true freedom? To go where you want and take what you're owed?”"]
   },
   {
     "Name": "Lek",
@@ -2783,7 +2783,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“I learned how to earthbend, and I swore an oath that I'd never miss a target again.”"]
   },
   {
     "Name": "Kirima",
@@ -2808,7 +2808,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“I'm not going to pass up the chance to go down in history as the Avatar's waterbending master.”"]
   },
   {
     "Name": "Wong",
@@ -2832,7 +2832,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“I may have gone a little overboard. I don't regret it.”"]
   },
   {
     "Name": "Jinpa",
@@ -2856,7 +2856,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“I believe I have to make peace with my own choices, just like everyone else.”"]
   },
   {
     "Name": "Tui",
@@ -2926,7 +2926,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Admiral_Zhao.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Look at you. You were once so great. I can't believe my former master has become nothing more than a simple savage.”"]
   },
   {
     "Name": "General Fong",
@@ -2948,7 +2948,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/General_Fong.jpg",
-    "Hints": []
+    "Hints": ["“You could save her if you were in the Avatar State!”"]
   },
   {
     "Name": "Long Feng",
@@ -2970,7 +2970,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Long_Feng.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Now comes the part where I double-cross you.”"]
   },
   {
     "Name": "Xin Fu",
@@ -2992,7 +2992,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Xin_Fu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I think the Fire Nation will pay a hefty price for the Avatar. Now, get out of my ring.”"]
   },
   {
     "Name": "Master Yu",
@@ -3014,7 +3014,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Master_Yu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“If you pay for the whole year in advance, I'll bump you up to the next belt.”"]
   },
   {
     "Name": "Song",
@@ -3034,7 +3034,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Song.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“The Fire Nation has hurt you ... It's okay. They've hurt me, too.”"]
   },
   {
     "Name": "On Ji",
@@ -3054,7 +3054,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/On_Ji.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Don't worry. I'm not a tattletale.”"]
   },
   {
     "Name": "Lo",
@@ -3076,7 +3076,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Lo.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“But Ember Island is a magical place. Keep an open mind.”"]
   },
   {
     "Name": "Li",
@@ -3098,7 +3098,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Li.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Azula, we heard what happened. Why have you banished all your servants?”"]
   },
   {
     "Name": "Ran",
@@ -3175,7 +3175,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Avatar_Yangchen.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Selfless duty calls you to sacrifice your own spiritual needs and do whatever it takes to protect the world.”"]
   },
   {
     "Name": "Avatar Szeto",
@@ -3224,7 +3224,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Shady_Shin.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“It's just a little security work. Nothin' crooked.”"]
   },
   {
     "Name": "Toza",
@@ -3244,7 +3244,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Toza.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Ah, the old 'I had to pee' excuse!”"]
   },
   {
     "Name": "Lightning Bolt Zolt",
@@ -3266,7 +3266,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Lightning_Bolt_Zolt.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Ah, boo yourself!”"]
   },
   {
     "Name": "Commander Guan",
@@ -3286,7 +3286,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Commander_Guan.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“And why should others get to reap the rewards of everything the Earth Empire accomplished?”"]
   },
   {
     "Name": "Yin",
@@ -3306,7 +3306,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Yin.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Bad dog and rat thingy! I'm very disappointed in you two.”"]
   },
   {
     "Name": "Tu",
@@ -3327,7 +3327,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Tu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You don't know what it's like on the streets. You got to be tough.”"]
   },
   {
     "Name": "Gun",
@@ -3347,7 +3347,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Gun.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I'm the one who gets in trouble when people don't follow [the rules], so please, please for my sake try not to upset Her Majesty.”"]
   },
   {
     "Name": "Skoochy",
@@ -3367,7 +3367,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Skoochy.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“My memory's a little 'foggy'. Maybe you can help 'clear it up'.”"]
   },
   {
     "Name": "Ryu",
@@ -3389,7 +3389,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Ryu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Whatever. I didn't ask to become an airbender, you know.”"]
   },
   {
     "Name": "Yakone",
@@ -3411,7 +3411,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Yakone.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Republic City is mine, Avatar. I'll be back one day to claim it.”"]
   },
   {
     "Name": "Daw",
@@ -3433,7 +3433,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Daw.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You guys should totally get shaved.”"]
   },
   {
     "Name": "Two-Toed Ping",
@@ -3454,10 +3454,10 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Two_Toed_Ping.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You just gotta relax, like me. Maybe try taking your shoes off.”"]
   },
   {
-    "Name": "Doc/Xu/Bushi",
+    "Name": "Dock/Xu/Bushi",
     "Gender": "Male",
     "Species": [
       "Human"
@@ -3474,7 +3474,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Doc_Xu_Bushi.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Would you like the one-headed fish, or the two-headed fish?”"]
   },
   {
     "Name": "The Painted Lady",
@@ -3495,7 +3495,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Painted_Lady.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Thank you.”"]
   },
   {
     "Name": "Yun",
@@ -3517,7 +3517,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Yun.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I want justice. Everyone who lied to me is going to suffer the consequences.”"]
   },
   {
     "Name": "Lao Ge",
@@ -3539,7 +3539,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“To keep her crops alive, a farmer uproots the weeds that nature has placed in her fields, does she not?”"]
   },
   {
     "Name": "Xu Ping An",
@@ -3559,7 +3559,7 @@
       "Kyoshi Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“What you don't understand is that men like me are beyond judgement."]
   },
   {
     "Name": "Amak",
@@ -3604,7 +3604,7 @@
     "Hints": ["“”"]
   },
   {
-    "Name": "Ayunerak",
+    "Name": "Mama Ayunerak",
     "Gender": "Female",
     "Species": [
       "Human"
@@ -3643,7 +3643,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“This city had ruined him. He'd make a mark on it in return.”"]
   },
   {
     "Name": "Jetsun",
@@ -3686,7 +3686,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“Every moment in the Avatar's service is a guided step along the true path.”"]
   },
   {
     "Name": "Nujian",
@@ -3815,7 +3815,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“Working yourself to the brink of oblivion was pointless if you couldn't defend the life you made.”"]
   },
   {
     "Name": "Kalyaan",
@@ -3896,7 +3896,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Cabbage_Merchant.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“My cabbages!”"]
   },
   {
     "Name": "Joo Dee",
@@ -3917,7 +3917,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Joo_Dee.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You're in Ba Sing Se now. Everyone is safe here.”"]
   },
   {
     "Name": "Gommu",
@@ -3937,7 +3937,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Gommu.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“We got benders and nonbenders living together down here, but do you see us fightin'? No siree; we've figured out how to harmoniously co-exist.”"]
   },
   {
     "Name": "Yue",
@@ -3959,7 +3959,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Yue.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“It gave me life. Maybe I can give it back.”"]
   },
   {
     "Name": "Kuzon",
@@ -3981,7 +3981,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Kuzon.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“That would be hot! Flamin' hot!”"]
   },
   {
     "Name": "General Old Iron",
@@ -4001,7 +4001,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/General_Old_Iron.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“At the core of human nature is the will to dominate... there can be no balance between the Spirit World and the human one.”"]
   },
   {
     "Name": "Sneers",
@@ -4022,7 +4022,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Sneers.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Maybe we've been thinking about this all wrong. What if Yu Dao is neither Fire Nation nor Earth Kingdom?”"]
   },
   {
     "Name": "Kori Morishita",
@@ -4044,7 +4044,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Kori_Morishita.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I am an earthbender and a Fire Nation citizen, and I live in Yu Dao! That's what I choose!”"]
   },
   {
     "Name": "Ho Tun",
@@ -4064,7 +4064,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Ho_Tun.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“When I first came to the academy, I saw doom everywhere. Now, I hardly see doom at all!”"]
   },
   {
     "Name": "Penga",
@@ -4084,7 +4084,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Penga.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I used to be obsessed with shoes. I couldn't go a single week without buying a brand new pair.”"]
   },
   {
     "Name": "The Dark One",
@@ -4104,7 +4104,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/The_Dark_One.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Why can't people see I'm more than just a pretty face?! I have the soul of a poet!”"]
   },
   {
     "Name": "Hope",
@@ -4144,7 +4144,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Kiyi.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Aw, what's the big deal? I knew Zuzu would keep us safe the whole time!”"]
   },
   {
     "Name": "Kei Lo",
@@ -4164,7 +4164,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Kei_Lo.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Meeting you made me realize I that I don't want to belong to something anymore. I want to belong to someone.”"]
   },
   {
     "Name": "Tom-Tom",
@@ -4185,7 +4185,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Tom_Tom.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Daddy, how come we gotta stay here? I miss mommy and Mai.”"]
   },
   {
     "Name": "The Warden",
@@ -4206,7 +4206,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/The_Warden.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Look me in the eye when I'm talking to you.”"]
   },
   {
     "Name": "Chit Sang",
@@ -4228,7 +4228,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Chit_Sang.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“You're lucky I didn't rat you out, but my generosity comes with a price.”"]
   },
   {
     "Name": "Chief Saikhan",
@@ -4248,7 +4248,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Chief_Saikhan.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“It was an honor serving under Chief Beifong for so many years and I wish her a speedy recovery.”"]
   },
   {
     "Name": "Sister Disha",
@@ -4270,7 +4270,7 @@
       "Roku Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“Our breath gives life to our words as much as our actions. Let both matter.”"]
   },
   {
     "Name": "Malaya",
@@ -4314,7 +4314,7 @@
       "Roku Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“It's like hunting or trapping – only our quarry can speak.”"]
   },
   {
     "Name": "Chief Ulo",
@@ -4334,7 +4334,7 @@
       "Roku Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“You do not understand the outsiders as I do. They only seek knowledge to destroy.”"]
   },
   {
     "Name": "Hawky",
@@ -4372,7 +4372,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Meng.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“Floozy.”"]
   },
   {
     "Name": "Noren/Ikem",
@@ -4390,7 +4390,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Noren.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“After you left, I died. Not literally, but I may as well have.”"]
   },
   {
     "Name": "Mother of Faces",
@@ -4408,7 +4408,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Mother_of_Faces.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“In each face, I put a piece of my own being!”"]
   },
   {
     "Name": "Guru Pathik",
@@ -4426,7 +4426,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Guru_Pathik.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“The greatest illusion of this world is the illusion of separation. Things you think are separate and different are actually one and the same.”"]
   },
   {
     "Name": "Professor Zei",
@@ -4445,6 +4445,6 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Professor_Zei.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“I've spent too long trying to find this place ... There's not another collection of knowledge like this on Earth ... I could spend an eternity in here.”"]
   }
 ]
