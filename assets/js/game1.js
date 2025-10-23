@@ -225,10 +225,21 @@ function startGame() {
         columnHeaders.style.display = 'none';
     }
 
+    // Remove existing table wrapper from previous games
+    const existingTableWrapper = document.querySelector('.table-scroll-wrapper');
+    if (existingTableWrapper) {
+        existingTableWrapper.remove();
+    }
+    
+    // Re-add guessRows to gameArea if it was removed
+    if (!gameArea.contains(guessRows)) {
+        gameArea.appendChild(guessRows);
+    }
+
     // Checkboxes are now in the settings modal
     
-    // Initial check for scroll hint visibility
-    setTimeout(updateScrollHintVisibility, 100); // Use timeout to ensure DOM is fully rendered
+    // Make sure scroll hint is hidden at start of new game
+    updateScrollHintVisibility();
 }
 
 // Handle character input and autocomplete
