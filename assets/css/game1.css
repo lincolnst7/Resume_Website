@@ -43,10 +43,6 @@ body {
     src: url("../fonts/AvatarAirbender.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "SpiritITC";
-  src: url("../fonts/SpiritITC-Italic.woff2") format("woff2");
-
 /* G.instruction-box {
     flex: 1;
     max-width: 85px;
@@ -1347,3 +1343,4 @@ body {
         font-size: 1.3rem;
     }
 }
+
