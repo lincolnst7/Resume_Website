@@ -208,9 +208,9 @@ body {
 .game-instructions {
     background-image: url("../images/game1images/AvatarPlacard.png");
     background-size: contain;
-    background-position: center;
+    image-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 120%;
     max-width: 1200px;
     aspect-ratio: 1.6;
     padding: 5% 16% 6% 16%;
