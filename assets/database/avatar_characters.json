@@ -41,7 +41,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Naga.jpg",
-    "Hints": []
+    "Hints": ["This animal first appeared in Book 1 of The Legend of Korra."]
   },
   {
     "Name": "Pabu",
@@ -62,7 +62,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Pabu.jpg",
-    "Hints": []
+    "Hints": ["This animal first appeared in Book 1 of The Legend of Korra."]
   },
   {
     "Name": "Jinora",
@@ -138,7 +138,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Fang.jpg",
-    "Hints": []
+    "Hints": ["This animal first appeared in Book 1 of Avatar: The Last Airbender in spirit form, and Book 3 in a flashback."]
   },
   {
     "Name": "Avatar Kyoshi",
@@ -241,7 +241,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Hei_Bai.jpg",
-    "Hints": []
+    "Hints": ["This spirit first appeared in Book 1 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Raava",
@@ -610,7 +610,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Nyla.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animal first appeared in Book 1 of Avatar: The Last Airbender"]
   },
   {
     "Name": "Lao Beifong",
@@ -1006,7 +1006,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Lu_Ten.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character is mentioned often by name, but passed away before the events of Avatar: The Last Airbender."]
   },
   {
     "Name": "Shyu",
@@ -2490,7 +2490,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Rohan.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character is a baby."]
   },
   {
     "Name": "Avatar Wan",
@@ -2557,7 +2557,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Mula.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animals only appearance is in Book 2 of The Legend of Korra."]
   },
   {
     "Name": "Appa",
@@ -2582,7 +2582,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Appa.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animal first appeared in Book 1 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Momo",
@@ -2603,7 +2603,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Momo.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animal first appeared in Book 1 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Oogi",
@@ -2627,7 +2627,7 @@
       "Korra Comics"
     ],
     "Image": "images/characters/Oogi.jpg",
-    "Hints": []
+    "Hints": ["This animal first appeared in Book 1 of The Legend of Korra."]
   },
   {
     "Name": "Combustion Man (Sparky Sparky Boom Man)",
@@ -2650,7 +2650,7 @@
       "Avatar Comics"
     ],
     "Image": "images/characters/Combustion_Man__Sparky_Sparky_Boom_Man_.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character first appeared in Book 3 of Avatar: The Last Airbender"]
   },
   {
     "Name": "Rangi",
@@ -2879,7 +2879,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Tui.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character appears in Book 1 of Avatar: The Last Airbender, and is part of a pair."]
   },
   {
     "Name": "La",
@@ -2902,7 +2902,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/La.jpg",
-    "Hints": []
+    "Hints": ["This character appears in Book 1 of Avatar: The Last Airbender, and is part of a pair."]
   },
   {
     "Name": "Admiral Zhao",
@@ -3122,7 +3122,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Ran.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animal's only appearance is in Book 3 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Shaw",
@@ -3146,7 +3146,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Shaw.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This animal's only appearance is in Book 3 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Avatar Yangchen",
@@ -3204,7 +3204,7 @@
       "The Legend of Korra"
     ],
     "Image": "images/characters/Avatar_Szeto.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character is one of Aang's past lives."]
   },
   {
     "Name": "Shady Shin",
@@ -3581,7 +3581,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Amak.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character is killed during the events of The Rise of Kyoshi."]
   },
   {
     "Name": "Akuudan",
@@ -3601,7 +3601,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“And you are a mess. I can bone set. Sit tight.”"]
   },
   {
     "Name": "Mama Ayunerak",
@@ -3623,7 +3623,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“It's my job to know things, Kavik. My friends and I know a great deal. And I think it's high time you joined us.”"]
   },
   {
     "Name": "Henshe",
@@ -3665,7 +3665,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“A hand either opens or closes. But it can't do either of those twice in a row.”"]
   },
   {
     "Name": "Jujinta",
@@ -3704,10 +3704,10 @@
       "Original Benders"
     ],
     "Appearances": [
-      "Yangchen Novels"
+      "Yangchen Novels", "Avatar Comics"
     ],
     "Image": "images/characters/Nujian.jpg",
-    "Hints": []
+    "Hints": ["This animal first appeared in 'The Rift' comics."]
   },
   {
     "Name": "Tayagum",
@@ -3729,7 +3729,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“I have to smooth things over at the dock. I'll be back.”"]
   },
   {
     "Name": "Thapa",
@@ -3751,7 +3751,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["This character is part of the Unanimity project."]
   },
   {
     "Name": "Yingsu",
@@ -3773,7 +3773,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["This character is part of the Unanimity project."]
   },
   {
     "Name": "Xiaoyun",
@@ -3795,7 +3795,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["This character is part of the Unanimity project."]
   },
   {
     "Name": "Chaisee",
@@ -3835,7 +3835,7 @@
       "Yangchen Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“A deep plant inside another zongdu's organization? Worth a fortune.”"]
   },
   {
     "Name": "Kavik",
@@ -3855,7 +3855,7 @@
       "Yangchen Novels"
     ],
     "Image": "images/characters/Kavik.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“What are the chances we can forget this ever happened? Genuinely asking.”"]
   },
   {
     "Name": "Father Glowworm",
@@ -3875,7 +3875,7 @@
       "Kyoshi Novels"
     ],
     "Image": "images/characters/Father_Glowworm.jpg",
-    "Hints": ["“”"]
+    "Hints": ["“It's this one. The girl. She's the Avatar.”"]
   },
   {
     "Name": "Cabbage Merchant (Cai)",
@@ -4124,7 +4124,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Hope.jpg",
-    "Hints": ["“”"]
+    "Hints": ["This character is a baby."]
   },
   {
     "Name": "Kiyi",
@@ -4292,7 +4292,7 @@
       "Roku Novels"
     ],
     "Image": "",
-    "Hints": ["“”"]
+    "Hints": ["“Hunting isn't about how accurately you can shoot an arrow or throw a spear...Most of a hunt is waiting, watching for the right moment.”"]
   },
   {
     "Name": "Amihan",
@@ -4354,7 +4354,7 @@
       "Avatar: The Last Airbender"
     ],
     "Image": "images/characters/Hawky.jpg",
-    "Hints": []
+    "Hints": ["This animal's only appearance is in Book 3 of Avatar: The Last Airbender."]
   },
   {
     "Name": "Meng",
