@@ -318,6 +318,7 @@
       // Expand/Collapse functionality
       const fullscreenBtn = document.getElementById('fullscreenBtn');
       const gameWrapper = document.querySelector('.game-frame-wrapper');
+      const backLink = document.querySelector('.back-link');
       
       fullscreenBtn.addEventListener('click', function() {
         const isExpanded = gameWrapper.classList.toggle('expanded');
@@ -326,9 +327,11 @@
         if (isExpanded) {
           fullscreenBtn.innerHTML = '<i class="ri-fullscreen-exit-line"></i>Exit Fullscreen';
           document.body.style.overflow = 'hidden'; // Prevent scrolling
+          backLink.style.display = 'none'; // Hide back link
         } else {
           fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line"></i>Go Fullscreen';
           document.body.style.overflow = ''; // Restore scrolling
+          backLink.style.display = ''; // Show back link
         }
       });
       
