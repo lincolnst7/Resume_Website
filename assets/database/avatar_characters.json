@@ -4482,7 +4482,7 @@
     "Appearances": [
       "Kyoshi Novels"
     ],
-    "Image": "images/characters/Fire_Lord_Zoryu.jpg",
+    "Image": "",
     "Hints": ["“I may not be the strongest ruler yet... But I would do anything for the sake of the Fire Nation. Please understand that.”"]
   },
   {
@@ -4505,7 +4505,7 @@
     "Hints": ["This spirit first appeared in Book 2 of The Legend of Korra."]
   },
   {
-    "Name": "Poki the Lemur",
+    "Name": "Poki",
     "Gender": "Male",
     "Species": "Animal",
     "Place of Origin": "Southern Air Temple",
@@ -4519,7 +4519,7 @@
     "Appearances": [
       "The Legend of Korra", "Korra Comics"
     ],
-    "Image": "images/characters/Poki_the_Lemur.jpg",
+    "Image": "images/characters/Poki.jpg",
     "Hints": ["This animal first appears in Book 2 of The Legend of Korra."]
   },
   {
