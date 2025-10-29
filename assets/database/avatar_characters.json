@@ -781,7 +781,7 @@
       "Plantbending"
     ],
     "Affiliation/Group": [
-      "Swampbenders"
+      "Swampbenders", "Invasion Fighters"
     ],
     "Appearances": [
       "Avatar: The Last Airbender"
@@ -803,7 +803,7 @@
       "Plantbending"
     ],
     "Affiliation/Group": [
-      "Swampbenders"
+      "Swampbenders", "Invasion Fighters"
     ],
     "Appearances": [
       "Avatar: The Last Airbender"
@@ -825,7 +825,7 @@
       "Plantbending"
     ],
     "Affiliation/Group": [
-      "Swampbenders"
+      "Swampbenders", "Invasion Fighters"
     ],
     "Appearances": [
       "Avatar: The Last Airbender"
@@ -2862,7 +2862,7 @@
     "Name": "Tui",
     "Gender": "Unknown",
     "Species": [
-      "Spirit"
+      "Spirit", "Animal"
     ],
     "Place of Origin": "Northern Water Tribe",
     "Bending type": [
@@ -2885,7 +2885,7 @@
     "Name": "La",
     "Gender": "Unknown",
     "Species": [
-      "Spirit"
+      "Spirit", "Animal"
     ],
     "Place of Origin": "Northern Water Tribe",
     "Bending type": [
@@ -4446,5 +4446,116 @@
     ],
     "Image": "images/characters/Professor_Zei.jpg",
     "Hints": ["“I've spent too long trying to find this place ... There's not another collection of knowledge like this on Earth ... I could spend an eternity in here.”"]
+  },
+  {
+    "Name": "Lee",
+    "Gender": "Male",
+    "Species": "Human",
+    "Place of Origin": "Earth Kingdom",
+    "Bending type": "None",
+    "Special Skills": [
+      "None"
+    ],
+    "Affiliation/Group": [
+      "None"
+    ],
+    "Appearances": [
+      "Avatar: The Last Airbender"
+    ],
+    "Image": "images/characters/Lee.jpg",
+    "Hints": ["“I think you'd really like my brother Sensu. He used to show me stuff like this all the time.”"]
+  },
+  {
+    "Name": "Fire Lord Zoryu",
+    "Gender": "Male",
+    "Species": "Human",
+    "Place of Origin": "Fire Nation",
+    "Bending type": [
+      "Firebender"
+    ],
+    "Special Skills": [
+      "Firebending"
+    ],
+    "Affiliation/Group": [
+      "Fire Nation Royal Family"
+    ],
+    "Appearances": [
+      "Kyoshi Novels"
+    ],
+    "Image": "images/characters/Fire_Lord_Zoryu.jpg",
+    "Hints": ["“I may not be the strongest ruler yet... But I would do anything for the sake of the Fire Nation. Please understand that.”"]
+  },
+  {
+    "Name": "Bum-Ju",
+    "Gender": "Male",
+    "Species": "Spirit",
+    "Place of Origin": "Spirit World",
+    "Bending type": "None",
+    "Special Skills": [
+      "Flight"
+    ],
+    "Affiliation/Group": [
+      "Spirits", "Pet"
+    ],
+    "Appearances": [
+      "The Legend of Korra",
+      "Korra Comics"
+    ],
+    "Image": "images/characters/BumJu.jpg",
+    "Hints": ["This spirit first appeared in Book 2 of The Legend of Korra."]
+  },
+  {
+    "Name": "Poki the Lemur",
+    "Gender": "Male",
+    "Species": "Animal",
+    "Place of Origin": "Southern Air Temple",
+    "Bending type": "None",
+    "Special Skills": [
+      "Flight"
+    ],
+    "Affiliation/Group": [
+      "Pet"
+    ],
+    "Appearances": [
+      "The Legend of Korra", "Korra Comics"
+    ],
+    "Image": "images/characters/Poki_the_Lemur.jpg",
+    "Hints": ["This animal first appears in Book 2 of The Legend of Korra."]
+  },
+  {
+    "Name": "Chin the Conqueror",
+    "Gender": "Male",
+    "Species": "Human",
+    "Place of Origin": "Earth Kingdom",
+    "Bending type": "None",
+    "Special Skills": [
+      "None"
+    ],
+    "Affiliation/Group": [
+      "Earth Kingdom Military"
+    ],
+    "Appearances": [
+      "Avatar: The Last Airbender"
+    ],
+    "Image": "images/characters/Chin_the_Conqueror.jpg",
+    "Hints": ["This character only appears in flashbacks in Avatar: The Last Airbender, though he was the focal point of an entire episode in Book 2."]
+  },
+  {
+    "Name": "Flopsie",
+    "Gender": "Male",
+    "Species": "Animal",
+    "Place of Origin": "Earth Kingdom",
+    "Bending type": "None",
+    "Special Skills": [
+      "None"
+    ],
+    "Affiliation/Group": [
+      "Pet"
+    ],
+    "Appearances": [
+      "Avatar: The Last Airbender"
+    ],
+    "Image": "images/characters/Flopsie.jpg",
+    "Hints": ["This animal first appears in Book 1 of Avatar: The Last Airbender"]
   }
 ]
