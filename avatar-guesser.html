@@ -173,6 +173,63 @@
         }
       }
       
+      /* Expanded state */
+      .game-frame-wrapper.expanded {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: none;
+        margin: 0;
+        border-radius: 0;
+        z-index: 1000;
+        border: none;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .game-frame-wrapper.expanded .game-header {
+        display: none;
+      }
+
+      .game-frame-wrapper.expanded .iframe-container {
+        flex-grow: 1;
+        height: calc(100vh - 60px); /* Only accounting for controls now */
+      }
+
+      .game-frame-wrapper.expanded .game-controls {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        background: none;
+        border: none;
+        padding: 15px;
+        gap: 20px;
+      }
+
+      .game-frame-wrapper.expanded .back-link {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 8px 16px;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+      }
+
+      .game-frame-wrapper.expanded .back-link:hover {
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      .game-frame-wrapper.expanded .fullscreen-btn {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+      }
+
+      .game-frame-wrapper.expanded .fullscreen-btn:hover {
+        background: rgba(0, 0, 0, 0.7);
+      }
+
       /* Loading state */
       .loading-overlay {
         position: absolute;
@@ -258,16 +315,27 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-      // Fullscreen functionality
-      document.getElementById('fullscreenBtn').addEventListener('click', function() {
-        const iframe = document.getElementById('gameIframe');
+      // Expand/Collapse functionality
+      const fullscreenBtn = document.getElementById('fullscreenBtn');
+      const gameWrapper = document.querySelector('.game-frame-wrapper');
+      
+      fullscreenBtn.addEventListener('click', function() {
+        const isExpanded = gameWrapper.classList.toggle('expanded');
         
-        if (iframe.requestFullscreen) {
-          iframe.requestFullscreen();
-        } else if (iframe.webkitRequestFullscreen) {
-          iframe.webkitRequestFullscreen();
-        } else if (iframe.msRequestFullscreen) {
-          iframe.msRequestFullscreen();
+        // Update button text and icon
+        if (isExpanded) {
+          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-exit-line"></i>Exit Fullscreen';
+          document.body.style.overflow = 'hidden'; // Prevent scrolling
+        } else {
+          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line"></i>Go Fullscreen';
+          document.body.style.overflow = ''; // Restore scrolling
+        }
+      });
+      
+      // Handle Escape key to exit expanded mode
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && gameWrapper.classList.contains('expanded')) {
+          fullscreenBtn.click();
         }
       });
       
