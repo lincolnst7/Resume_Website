@@ -932,10 +932,15 @@ replayButton.addEventListener('click', startGame);
 characterInput.addEventListener('input', handleInput);
 characterInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter' && characterInput.value) {
-        const character = getFilteredCharacters()
-            .find(char => char.Name.toLowerCase() === characterInput.value.toLowerCase());
-        if (character) {
-            handleGuess(character);
+        const input = characterInput.value.toLowerCase();
+        const normalizedInput = normalizeForMatching(input);
+        
+        // First check for exact match
+        const exactMatch = getFilteredCharacters()
+            .find(char => char.Name.toLowerCase() === input || normalizeForMatching(char.Name) === normalizedInput);
+        
+        if (exactMatch) {
+            handleGuess(exactMatch);
             
             // Keep focus on desktop, only dismiss keyboard on mobile
             if (window.innerWidth > 600) {
@@ -944,6 +949,40 @@ characterInput.addEventListener('keypress', (e) => {
                     characterInput.value = '';
                 }, 50);
             }
+        } else {
+            // No exact match, check if there are autocomplete options
+            const allMatches = getFilteredCharacters()
+                .filter(char => {
+                    const charName = char.Name.toLowerCase();
+                    const normalizedCharName = normalizeForMatching(char.Name);
+                    return charName.includes(input) || normalizedCharName.includes(normalizedInput);
+                });
+            
+            if (allMatches.length > 0) {
+                // Sort matches using the same logic as handleInput
+                const sortedMatches = allMatches.sort((a, b) => {
+                    const aName = a.Name.toLowerCase();
+                    const bName = b.Name.toLowerCase();
+                    const aNormalized = normalizeForMatching(a.Name);
+                    const bNormalized = normalizeForMatching(b.Name);
+                    
+                    // Exact match gets highest priority (though we already checked this)
+                    if (aName === input || aNormalized === normalizedInput) return -1;
+                    if (bName === input || bNormalized === normalizedInput) return 1;
+                    
+                    // Starts with input gets second priority
+                    if (aName.startsWith(input) || aNormalized.startsWith(normalizedInput)) return -1;
+                    if (bName.startsWith(input) || bNormalized.startsWith(normalizedInput)) return 1;
+                    
+                    // Then alphabetical order
+                    return aName.localeCompare(bName);
+                });
+                
+                // Select the top match
+                const topMatch = sortedMatches[0];
+                selectSuggestion(topMatch);
+            }
+            // If no matches at all, do nothing
         }
     }
 });

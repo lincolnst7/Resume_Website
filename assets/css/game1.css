@@ -128,11 +128,12 @@ body {
     position: relative;
 }
 
+.game-controls,
 .game-container.game-active .game-controls,
-.game-container.game-active .guess-input-container,
-.game-container.game-active .hint-display {
+.game-container.game-active .guess-input-container {
     position: relative;
     z-index: 10;
+    display: flex !important;
 }
 
 /* Column hint should have lower z-index to stay behind autocomplete */
@@ -443,6 +444,9 @@ body {
     position: relative;
     margin-bottom: 1rem;
     z-index: 100;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 /* ensure the input and its dropdown are centered as a group */
@@ -584,42 +588,49 @@ body {
 /* Game controls styles */
 .game-controls {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
-    margin: 1rem 0;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    z-index: 10;
 }
 
-/* Mobile layout: how to play & hint on top, give up below */
+/* Mobile layout: keep buttons centered and visible */
 @media (max-width: 600px) {
     .game-controls {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas: 
-            "howto hint"
-            "giveup giveup";
-        gap: 0.2rem;
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 0.5rem;
         justify-content: center;
-        margin: 0 0 1rem 0;
+        align-items: center;
+        margin: 1rem auto;
+        width: 90%;
+        max-width: 350px;
+        position: relative;
+        z-index: 10;
     }
-    
+
     .control-button {
         font-size: 0.8rem;
         padding: 0.5rem 0.7rem;
-        min-width: auto;
-        width: 80px;
+        min-width: 100px;
         height: 35px;
-        margin: 0 auto;
+        flex: 1;
+        min-width: 0;
+        max-width: 120px;
     }
-    
-    .control-button:nth-child(1) { grid-area: howto; }
-    .control-button:nth-child(2) { grid-area: hint; }
-    
+
     .give-up-button {
         font-size: 0.8rem;
         padding: 0.5rem 0.7rem;
-        min-width: auto;
-        grid-area: giveup;
+        min-width: 100px;
+        height: 35px;
+        flex: 1;
+        min-width: 0;
+        max-width: 120px;
     }
     
     /* Left align autocomplete text on mobile */
@@ -1024,12 +1035,14 @@ body {
         overflow-x: auto;
         overflow-y: visible;
         padding-bottom: 0.5rem;
+        left: 50%;
+        transform: translateX(-50%) scale(0.85);
     }
     
     .column-headers,
     .guess-rows,
     .guess-row {
-        min-width: 1200px;
+        min-width: min(1200px);
         flex-shrink: 0;
         margin: 0 auto;
         width: 100%;
