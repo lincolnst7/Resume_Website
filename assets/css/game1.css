@@ -119,7 +119,8 @@ body {
 /* Game area spacer to center input bar vertically */
 .game-area {
     margin-top: 2vh;
-    width: 100%;
+    align-content: center;
+    align-items: center;
 }
 
 /* Fixed layout for game area when table appears */
@@ -223,6 +224,7 @@ body {
      /* keep the placard narrower than the full viewport so it visually
          centers above the smaller, centered buttons */
      width: min(1100px, 100%);
+     width: max(520px);
     aspect-ratio: 1.6;
     /* reduce side padding so inner elements can center correctly */
     padding: 5% 8% 6% 8%;
@@ -236,8 +238,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0%;
-    position: static;
-    transform: none;
+    position: relative;
+    transform: translateX(-44px);
     left: auto;
     right: auto;
     align-content: center;
@@ -325,6 +327,12 @@ body {
 .game-instructions > p:first-child {
     font-size: 0.95rem;
     margin-bottom: 0.5rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.3;
 }
 
 .game-instructions > p:last-child {
@@ -437,6 +445,13 @@ body {
     z-index: 100;
 }
 
+/* ensure the input and its dropdown are centered as a group */
+.guess-input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #characterInput {
     width: min(900px, 90vw);
     max-width: 900px;
@@ -444,7 +459,7 @@ body {
     font-size: 1rem;
     border: 2px solid #ddd;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 0; /* remove auto margin so flex centering of container controls placement */
     display: block;
 }
 
@@ -457,7 +472,7 @@ body {
     left: 50%;
     width: min(900px, 90vw);
     max-width: 900px;
-    transform: translateX(-50%);
+    transform: translateX(-50%); /* center horizontally relative to the input container */
     background-color: white;
     border-radius: 0 0 8px 8px;
     max-height: 200px;
@@ -478,6 +493,12 @@ body {
         transform: none;
         left: auto;
         right: auto;
+    }
+    
+    /* Reduce font size for the last instruction line on mobile */
+    .game-instructions > p:last-of-type {
+        font-size: clamp(0.7rem, 1.8vw, 0.9rem);
+        margin-top: 0.8rem;
     }
     
     body {
@@ -502,6 +523,8 @@ body {
         max-width: 350px;
         margin: 0 auto;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
     
     #characterInput {
@@ -509,16 +532,16 @@ body {
         min-width: 0;
         box-sizing: border-box;
         font-size: 16px; /* Prevent zoom on mobile */
+        margin: 0;
     }
     
     .autocomplete-items {
         position: absolute;
-        width: 100%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+        left: 50%;
         top: 100%;
         z-index: 1000;
+        width: 100%;
+        transform: translateX(-50%);
         max-height: 200px;
         overflow-y: auto;
         box-sizing: border-box;
