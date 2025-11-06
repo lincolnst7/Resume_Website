@@ -1019,9 +1019,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 0 2rem;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     align-items: center;
+    padding: 0 2rem;
 }
 
 /* Table scroll wrapper for headers and rows */
@@ -1037,16 +1039,34 @@ body {
         padding-bottom: 0.5rem;
         left: 50%;
         transform: translateX(-50%) scale(0.85);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
-    .column-headers,
-    .guess-rows,
-    .guess-row {
-        min-width: min(1200px);
+    .column-headers {
+        padding: 0.25rem 2rem;
+        min-width: 1200px;
         flex-shrink: 0;
-        margin: 0 auto;
-        width: 100%;
+        width: 1200px;
         justify-content: center;
+    }
+    
+    .guess-rows {
+        min-width: 1200px;
+        flex-shrink: 0;
+        width: 1200px;
+        justify-content: center;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+    
+    .guess-row {
+        min-width: 1200px;
+        flex-shrink: 0;
+        width: 1200px;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 
@@ -1054,6 +1074,9 @@ body {
 @media (min-width: 1201px) {
     .table-scroll-wrapper {
         overflow-x: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -1081,6 +1104,7 @@ body {
     min-height: 60px;
     position: relative;
     overflow: hidden;
+    min-width: 1200px;
 }
 
 .column-headers::before {

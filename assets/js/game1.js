@@ -90,14 +90,31 @@ if (window.innerWidth <= 600) {
 // Function to check if scroll hint should be visible
 function updateScrollHintVisibility() {
     const scrollHint = document.getElementById('scrollHint');
-    if (scrollHint && gameActive && guessCount > 0) {
-        const tableWrapper = document.querySelector('.table-scroll-wrapper');
-        if (tableWrapper && tableWrapper.scrollWidth > tableWrapper.clientWidth) {
-            scrollHint.style.display = 'block';
-        } else {
-            scrollHint.style.display = 'none';
-        }
-    } else if (scrollHint) {
+    if (!scrollHint) {
+        return;
+    }
+
+    if (!gameActive || guessCount === 0) {
+        scrollHint.style.display = 'none';
+        return;
+    }
+
+    const tableWrapper = document.querySelector('.table-scroll-wrapper');
+    if (!tableWrapper) {
+        scrollHint.style.display = 'none';
+        return;
+    }
+
+    const overflowX = window.getComputedStyle(tableWrapper).overflowX;
+    if (overflowX === 'visible' || overflowX === 'hidden') {
+        scrollHint.style.display = 'none';
+        return;
+    }
+
+    const overflowAmount = tableWrapper.scrollWidth - tableWrapper.clientWidth;
+    if (overflowAmount > 2) {
+        scrollHint.style.display = 'block';
+    } else {
         scrollHint.style.display = 'none';
     }
 }
