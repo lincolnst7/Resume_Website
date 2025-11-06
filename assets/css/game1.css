@@ -133,7 +133,7 @@ body {
 .game-container.game-active .guess-input-container {
     position: relative;
     z-index: 10;
-    display: flex !important;
+    display: flex;
 }
 
 /* Column hint should have lower z-index to stay behind autocomplete */
@@ -398,7 +398,7 @@ body {
 
 /* Hide control buttons when game is over */
 .game-won .game-controls {
-    display: none;
+    display: none !important;
 }
 
 /* Ensure checkboxes are visible on replay screen */
@@ -1194,7 +1194,7 @@ body {
 
 /* Hide input area and instructions after win */
 .game-won .guess-input-container {
-    display: none;
+    display: none !important;
 }
 
 .game-won .column-hint {
