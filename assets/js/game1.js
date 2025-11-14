@@ -658,7 +658,13 @@ function handleGuess(character) {
         if (scrollHint) scrollHint.style.display = 'none';
         
         const hintDisplay = document.getElementById('hintDisplay');
-        if (hintDisplay) hintDisplay.style.display = 'none';
+        if (hintDisplay) {
+            hintDisplay.style.display = 'none';
+            const hintText = hintDisplay.querySelector('.hint-text');
+            if (hintText) hintText.innerHTML = '';
+            const hintTitle = hintDisplay.querySelector('.hint-title');
+            if (hintTitle) hintTitle.style.display = 'inline';
+        }
         
         // Settings button is now part of the game complete HTML
         
@@ -718,7 +724,13 @@ function handleGiveUp() {
     if (scrollHint) scrollHint.style.display = 'none';
     
     const hintDisplay = document.getElementById('hintDisplay');
-    if (hintDisplay) hintDisplay.style.display = 'none';
+    if (hintDisplay) {
+        hintDisplay.style.display = 'none';
+        const hintText = hintDisplay.querySelector('.hint-text');
+        if (hintText) hintText.innerHTML = '';
+        const hintTitle = hintDisplay.querySelector('.hint-title');
+        if (hintTitle) hintTitle.style.display = 'inline';
+    }
     
     // Settings button is now part of the game complete HTML
     
@@ -729,36 +741,50 @@ function handleGiveUp() {
 // Show hint functionality
 function showHint() {
     if (!gameActive || !targetCharacter) return;
-    
+
     const hintDisplay = document.getElementById('hintDisplay');
     const hintTitle = document.querySelector('.hint-title');
     const hintText = document.querySelector('.hint-text');
-    
+
     // Check if target character has hints
     if (!targetCharacter.Hints || !Array.isArray(targetCharacter.Hints) || targetCharacter.Hints.length === 0) {
         return; // No hints available, do nothing
     }
-    
+
     // Check if we've shown all available hints
     if (hintIndex >= targetCharacter.Hints.length) {
         return; // No more hints available
     }
-    
+
     // Get the current hint
     const currentHint = targetCharacter.Hints[hintIndex];
-    
+
     // Skip empty hints
     if (!currentHint || currentHint.trim() === '') {
         hintIndex++;
         showHint(); // Recursively try next hint
         return;
     }
-    
-    // Update hint display
-    hintTitle.textContent = `Hint ${hintIndex + 1}:`;
-    hintText.textContent = currentHint;
-    hintDisplay.style.display = 'block';
-    
+
+    // If this is the first hint, clear any previous content and hide title
+    if (hintIndex === 0) {
+        hintTitle.style.display = 'none';
+        hintText.innerHTML = ''; // Clear previous hints
+    }
+
+    // Create a new hint element
+    const hintElement = document.createElement('div');
+    hintElement.className = 'individual-hint';
+    hintElement.innerHTML = `<strong>Hint ${hintIndex + 1}:</strong> ${currentHint}`;
+
+    // Append the new hint to the hint text container
+    hintText.appendChild(hintElement);
+
+    // Show the hint display if it's the first hint
+    if (hintIndex === 0) {
+        hintDisplay.style.display = 'block';
+    }
+
     // Automatically focus the input box so player can continue typing
     const characterInput = document.getElementById('characterInput');
     if (characterInput) {
@@ -766,7 +792,7 @@ function showHint() {
             characterInput.focus();
         }, 100); // Small delay to ensure hint display is rendered first
     }
-    
+
     // Increment hint index for next time
     hintIndex++;
 }
@@ -775,8 +801,16 @@ function showHint() {
 function resetHints() {
     hintIndex = 0;
     const hintDisplay = document.getElementById('hintDisplay');
+    const hintText = document.querySelector('.hint-text');
+    const hintTitle = document.querySelector('.hint-title');
     if (hintDisplay) {
         hintDisplay.style.display = 'none';
+    }
+    if (hintText) {
+        hintText.innerHTML = ''; // Clear accumulated hints
+    }
+    if (hintTitle) {
+        hintTitle.style.display = 'inline'; // Reset title visibility
     }
 }
 
