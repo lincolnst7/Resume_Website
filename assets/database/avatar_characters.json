@@ -68,7 +68,8 @@
         ],
         "Image": "images/characters/Pabu.jpg",
         "Hints": [
-            "This animal first appeared in Book 1 of The Legend of Korra."
+            "This animal first appeared in Book 1 of The Legend of Korra.",
+            "This animal can do circus tricks."
         ]
     },
     {
@@ -1113,7 +1114,8 @@
         "Image": "images/characters/Fire_Lord_Azulon.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“I think Iroh has suffered enough. But you, your punishment has scarcely begun!”"
+            "“I think Iroh has suffered enough. But you, your punishment has scarcely begun!”",
+            "This character is Zuko's Grandfather."
         ]
     },
     {
@@ -1137,7 +1139,8 @@
         ],
         "Image": "images/characters/Lu_Ten.jpg",
         "Hints": [
-            "This character is mentioned often by name, but passed away before the events of Avatar: The Last Airbender."
+            "This character is mentioned often by name, but passed away before the events of Avatar: The Last Airbender.",
+            "This character is related to Zuko."
         ]
     },
     {
@@ -1213,7 +1216,8 @@
         "Image": "images/characters/Fire_Lord_Izumi.jpg",
         "Hints": [
             "This character first appears in Book 4 of The Legend of Korra.",
-            "“The Fire Nation has spent too much of its history fighting nonsense wars, and I refuse to drag my nation into another one unless there's no other choice.”"
+            "“The Fire Nation has spent too much of its history fighting nonsense wars, and I refuse to drag my nation into another one unless there's no other choice.”",
+            "This character is the Fire Lord during The Legend of Korra."
         ]
     },
     {
@@ -1238,7 +1242,8 @@
         "Image": "images/characters/Chief_Hakoda.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender in a flashback, and Book 2 in-person.",
-            "“We lost today, but we've never been closer. We tasted victory, and that counts for something”"
+            "“We lost today, but we've never been closer. We tasted victory, and that counts for something.”",
+            "This character is related to Katara and Sokka."
         ]
     },
     {
@@ -1262,7 +1267,8 @@
         "Image": "images/characters/Kya.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender in a vision.",
-            "“Just let her go, and I'll give you the information you want.”"
+            "“Just let her go, and I'll give you the information you want.”",
+            "This character passed away before the events of Avatar: The Last Airbender."
         ]
     },
     {
@@ -1288,7 +1294,7 @@
         "Image": "images/characters/Kya_II.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“You seem to have some grandiose delusion that we had a perfect, happy-go-lucky childhood. Guess what? We didn't!”"
+            "“You seem to have some grandiose delusion that we had a perfect, happy-go-lucky childhood. Guess what? We didn't!”",
         ]
     },
     {
@@ -1312,7 +1318,8 @@
         "Image": "images/characters/Bato.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“For this is to be done right, I cannot help. You pass or fail on your own.”"
+            "“For this is to be done right, I cannot help. You pass or fail on your own.”",
+            "This character is a close friend of Chief Hakoda."
         ]
     },
     {
@@ -1335,7 +1342,8 @@
         "Image": "images/characters/Chief_Arnook.jpg",
         "Hints": [
             "This character only appears in Book 1 of Avatar: The Last Airbender.",
-            "“Spirit of the Ocean! Spirit of the Moon! Be with us!”"
+            "“Spirit of the Ocean! Spirit of the Moon! Be with us!”",
+            "This character is related to Princess Yue."
         ]
     },
     {
@@ -2430,7 +2438,7 @@
         ],
         "Image": "images/characters/Toph_Beifong.jpg",
         "Hints": [
-            "This character first appears in Book 1 of Avatar: The Last Airbender.",
+            "This character first appears in Book 2 of Avatar: The Last Airbender.",
             "“Alright, let's break some rules!”"
         ]
     },
@@ -2887,7 +2895,8 @@
         ],
         "Image": "images/characters/Mula.jpg",
         "Hints": [
-            "This animals only appearance is in Book 2 of The Legend of Korra."
+            "This animals only appearance is in Book 2 of The Legend of Korra.",
+            "This animal is an Avatar's Animal Guide."
         ]
     },
     {
