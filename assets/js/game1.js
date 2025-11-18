@@ -123,15 +123,17 @@ function updateScrollHintVisibility() {
 window.addEventListener('resize', updateScrollHintVisibility);
 
 // Load character data
-async function loadCharacters() {
+function loadCharacters() {
     try {
-        const response = await fetch('assets/database/avatar_characters.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}, URL: ${response.url}`);
+        const response = new XMLHttpRequest();
+        response.open('GET', 'assets/database/avatar_characters.json', false); // synchronous
+        response.send();
+        if (response.status === 200) {
+            characters = JSON.parse(response.responseText);
+            console.log("Characters loaded:", characters.length);
+        } else {
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
-        const data = await response.json();
-        characters = data;
-        console.log("Characters loaded:", characters.length);
     } catch (error) {
         console.error('Error loading character data:', error);
     }
@@ -856,10 +858,8 @@ function setupCheckboxListeners() {
 setupCheckboxListeners();
 
 // Initialize game
-loadCharacters();
-
-async function initGame() {
-  await loadCharacters();
+function initGame() {
+  loadCharacters();
   setupGameControls();
   setupCheckboxListeners();
   playButton.disabled = false;
