@@ -1311,7 +1311,7 @@
         "Difficulty": "Medium"
     },
     {
-        "Name": "Kya",
+        "Name": "Kya (Katara's Mom)",
         "Gender": "Female",
         "Species": [
             "Human"
@@ -1337,7 +1337,7 @@
         "Difficulty": "Hard"
     },
     {
-        "Name": "Kya II",
+        "Name": "Kya (Katara's Daughter)",
         "Gender": "Female",
         "Species": [
             "Human"
@@ -1710,7 +1710,7 @@
         "Difficulty": "Easy"
     },
     {
-        "Name": "Bumi II",
+        "Name": "Commander Bumi (Aang's Son)",
         "Gender": "Male",
         "Species": [
             "Human"
@@ -1990,7 +1990,7 @@
         "Difficulty": "Hard"
     },
     {
-        "Name": "King Bumi",
+        "Name": "Bumi (King of Omashu)",
         "Gender": "Male",
         "Species": [
             "Human"
