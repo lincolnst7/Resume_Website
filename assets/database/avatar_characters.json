@@ -22,8 +22,9 @@
         "Image": "images/characters/Fire_Lord_Ozai.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender",
-            "“You will learn respect, and suffering will be your teacher.”"
-        ]
+            "\u201cYou will learn respect, and suffering will be your teacher.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Naga",
@@ -46,7 +47,8 @@
         "Image": "images/characters/Naga.jpg",
         "Hints": [
             "This animal first appeared in Book 1 of The Legend of Korra."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Pabu",
@@ -70,7 +72,8 @@
         "Hints": [
             "This animal first appeared in Book 1 of The Legend of Korra.",
             "This animal can do circus tricks."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jinora",
@@ -96,8 +99,9 @@
         "Image": "images/characters/Jinora.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra",
-            "“The world's in trouble... I have to go help.”"
-        ]
+            "\u201cThe world's in trouble... I have to go help.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Roku",
@@ -128,8 +132,9 @@
         "Image": "images/characters/Avatar_Roku.jpg",
         "Hints": [
             "This character's first on-screen appearance is in Book 1 of Avatar: The Last Airbender",
-            "“Some friendships are so strong, they can even transcend lifetimes.”"
-        ]
+            "\u201cSome friendships are so strong, they can even transcend lifetimes.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Fang",
@@ -154,7 +159,8 @@
         "Image": "images/characters/Fang.jpg",
         "Hints": [
             "This animal first appeared in Book 1 of Avatar: The Last Airbender in spirit form, and Book 3 in physical form (during a flashback)."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Kyoshi",
@@ -191,8 +197,9 @@
         "Image": "images/characters/Avatar_Kyoshi.jpg",
         "Hints": [
             "This character's first on-screen appearance is in Book 2 of Avatar: The Last Airbender, though she is seen in Book 1 in the form of statues and paintings.",
-            "“Only justice will bring peace.”"
-        ]
+            "\u201cOnly justice will bring peace.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Kuruk",
@@ -222,8 +229,9 @@
         "Image": "images/characters/Avatar_Kuruk.jpg",
         "Hints": [
             "This character's first on-screen appearance is in Book 3 of Avatar: The Last Airbender",
-            "“You must actively shape your destiny, and the destiny of the world.”"
-        ]
+            "\u201cYou must actively shape your destiny, and the destiny of the world.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Koh the Face Stealer",
@@ -245,8 +253,9 @@
         "Image": "images/characters/Koh_the_Face_Stealer.jpg",
         "Hints": [
             "This character's only appearance is in Book 1 of Avatar: The Last Airbender.",
-            "“You've already met them, actually.”"
-        ]
+            "\u201cYou've already met them, actually.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hei Bai",
@@ -268,7 +277,8 @@
         "Image": "images/characters/Hei_Bai.jpg",
         "Hints": [
             "This spirit first appeared in Book 1 of Avatar: The Last Airbender."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Raava",
@@ -290,8 +300,9 @@
         "Image": "images/characters/Raava.jpg",
         "Hints": [
             "This Spirit first appears in Book 2 of The Legend of Korra.",
-            "“Do not give in to ten thousand years of darkness. You are the Avatar.”"
-        ]
+            "\u201cDo not give in to ten thousand years of darkness. You are the Avatar.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Vaatu",
@@ -313,8 +324,9 @@
         "Image": "images/characters/Vaatu.jpg",
         "Hints": [
             "This Spirit first appears in Book 2 of The Legend of Korra.",
-            "“To hate me is to give me breath. To fight me is to give me strength. Now prepare to face oblivion!”"
-        ]
+            "\u201cTo hate me is to give me breath. To fight me is to give me strength. Now prepare to face oblivion!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Aye-aye Spirit",
@@ -336,8 +348,9 @@
         "Image": "images/characters/Aye_aye_Spirit.jpg",
         "Hints": [
             "This Spirit first appears in Book 2 of The Legend of Korra.",
-            "“You have a good heart Stinky, but these fire tossers aren't like you.”"
-        ]
+            "\u201cYou have a good heart Stinky, but these fire tossers aren't like you.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "President Raiko",
@@ -361,8 +374,9 @@
         "Image": "images/characters/President_Raiko.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“Stop! We surrender. Republic City is yours.”"
-        ]
+            "\u201cStop! We surrender. Republic City is yours.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Sir Iknik Blackstone Varrick",
@@ -386,8 +400,9 @@
         "Image": "images/characters/Sir_Iknik_Blackstone_Varrick.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“Yep, I like to think I'm always there to stand up for the little guy. Especially if that little guy can help this guy become a bigger guy!”"
-        ]
+            "\u201cYep, I like to think I'm always there to stand up for the little guy. Especially if that little guy can help this guy become a bigger guy!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Zhu Li Moon",
@@ -412,8 +427,9 @@
         "Image": "images/characters/Zhu_Li_Moon.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“If you want me around, you need to start treating me like an equal!”"
-        ]
+            "\u201cIf you want me around, you need to start treating me like an equal!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "General Iroh II",
@@ -438,8 +454,9 @@
         "Image": "images/characters/General_Iroh_II.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Tell her we will be arriving in three days' time and that I look forward to winning back Republic City, together.”"
-        ]
+            "\u201cTell her we will be arriving in three days' time and that I look forward to winning back Republic City, together.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tarrlok",
@@ -463,8 +480,9 @@
         "Image": "images/characters/Tarrlok.jpg",
         "Hints": [
             "This character only appears in Book 1 of The Legend of Korra.",
-            "“It'll be just like the good old days.”"
-        ]
+            "\u201cIt'll be just like the good old days.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tahno",
@@ -488,8 +506,9 @@
         "Image": "images/characters/Tahno.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“I barely broke a sweat! Anybody else wanna scrap with the champs?”"
-        ]
+            "\u201cI barely broke a sweat! Anybody else wanna scrap with the champs?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Shiro Shinobi",
@@ -514,8 +533,9 @@
         "Image": "images/characters/Shiro_Shinobi.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“It's a knockout! What a wingdinger of a hat trick, folks!”"
-        ]
+            "\u201cIt's a knockout! What a wingdinger of a hat trick, folks!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Earth King Kuei",
@@ -540,8 +560,9 @@
         "Image": "images/characters/Earth_King_Kuei.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender",
-            "“If you're on my side, then drop your weapons and stand down.”"
-        ]
+            "\u201cIf you're on my side, then drop your weapons and stand down.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Haru",
@@ -566,8 +587,9 @@
         "Image": "images/characters/Haru.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Thank you for bringing my father back to me. I never thought I'd see him again. I only wish there was some way...”"
-        ]
+            "\u201cThank you for bringing my father back to me. I never thought I'd see him again. I only wish there was some way...\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tyro",
@@ -592,8 +614,9 @@
         "Image": "images/characters/Tyro.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Don't worry. I hear cowards float.”"
-        ]
+            "\u201cDon't worry. I hear cowards float.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Mechanist",
@@ -615,8 +638,9 @@
         "Image": "images/characters/The_Mechanist.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“We're just in the process of improving upon what's already here, and after all, isn't that what nature does?”"
-        ]
+            "\u201cWe're just in the process of improving upon what's already here, and after all, isn't that what nature does?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Teo",
@@ -639,8 +663,9 @@
         "Image": "images/characters/Teo.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“The wind will carry you. It supports something inside you, something even lighter than air, and that something takes over when you fly.”"
-        ]
+            "\u201cThe wind will carry you. It supports something inside you, something even lighter than air, and that something takes over when you fly.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "June",
@@ -663,8 +688,9 @@
         "Image": "images/characters/June.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Wow, it's a real head scratcher. See ya.”"
-        ]
+            "\u201cWow, it's a real head scratcher. See ya.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Nyla",
@@ -687,7 +713,8 @@
         "Image": "images/characters/Nyla.jpg",
         "Hints": [
             "This animal first appeared in Book 1 of Avatar: The Last Airbender"
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lao Beifong",
@@ -710,8 +737,9 @@
         "Image": "images/characters/Lao_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Who thinks they are so important they can just come to my home unannounced?”"
-        ]
+            "\u201cWho thinks they are so important they can just come to my home unannounced?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Poppy Beifong",
@@ -734,8 +762,9 @@
         "Image": "images/characters/Poppy_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Well, shall we move to the living room for dessert, then?”"
-        ]
+            "\u201cWell, shall we move to the living room for dessert, then?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Boulder",
@@ -761,8 +790,9 @@
         "Image": "images/characters/The_Boulder.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“You may be big, but you ain't bad! ___ _______'s gonna win this in a landslide!”"
-        ]
+            "\u201cYou may be big, but you ain't bad! ___ _______'s gonna win this in a landslide!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Big Bad Hippo",
@@ -787,8 +817,9 @@
         "Image": "images/characters/Big_Bad_Hippo.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“_____ happy to see Blind Bandit!”"
-        ]
+            "\u201c_____ happy to see Blind Bandit!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jin",
@@ -814,8 +845,9 @@
         "Image": "images/characters/Jin.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“I have something for you, too. Now it's your turn to close your eyes.”"
-        ]
+            "\u201cI have something for you, too. Now it's your turn to close your eyes.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Aunt Wu",
@@ -837,8 +869,9 @@
         "Image": "images/characters/Aunt_Wu.jpg",
         "Hints": [
             "This character only appears in Book 1 of Avatar: The Last Airbender",
-            "“Your future is full of struggle and anguish. Most of it, self-inflicted.”"
-        ]
+            "\u201cYour future is full of struggle and anguish. Most of it, self-inflicted.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ghashiun",
@@ -862,8 +895,9 @@
         "Image": "images/characters/Ghashiun.jpg",
         "Hints": [
             "This character only appears in Book 2 of Avatar: The Last Airbender.",
-            "“Please! We'll escort you out of the desert! We'll help however we can!”"
-        ]
+            "\u201cPlease! We'll escort you out of the desert! We'll help however we can!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Huu",
@@ -888,8 +922,9 @@
         "Image": "images/characters/Huu.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“You think you're any different from me, or your friends, or this tree?”"
-        ]
+            "\u201cYou think you're any different from me, or your friends, or this tree?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tho",
@@ -914,8 +949,9 @@
         "Image": "images/characters/Tho.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Didn't know there was waterbenders anywhere but here. They got a nice swamp there, do they?”"
-        ]
+            "\u201cDidn't know there was waterbenders anywhere but here. They got a nice swamp there, do they?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Due",
@@ -940,8 +976,9 @@
         "Image": "images/characters/Due.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“You too? That means we're kin!”"
-        ]
+            "\u201cYou too? That means we're kin!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Earth Queen Hou-Ting",
@@ -964,8 +1001,9 @@
         "Image": "images/characters/Earth_Queen_Hou_Ting.jpg",
         "Hints": [
             "This character only appears in Book 3 of The Legend of Korra.",
-            "[Sneezes] “Is there an animal in my presence?!”"
-        ]
+            "[Sneezes] \u201cIs there an animal in my presence?!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Prince Wu",
@@ -988,8 +1026,9 @@
         "Image": "images/characters/Prince_Wu.jpg",
         "Hints": [
             "This character first appears in Book 4 of The Legend of Korra.",
-            "“It's the most dynamite six-hour show you'll ever see in your life!”"
-        ]
+            "\u201cIt's the most dynamite six-hour show you'll ever see in your life!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Fire Lord Sozin",
@@ -1015,8 +1054,9 @@
         "Image": "images/characters/Fire_Lord_Sozin.jpg",
         "Hints": [
             "This character's first on-screen appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“Without you, all my plans are suddenly possible.”"
-        ]
+            "\u201cWithout you, all my plans are suddenly possible.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Mai",
@@ -1039,8 +1079,9 @@
         "Image": "images/characters/Mai.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“I guess you just don't know people as well as you think you do. You miscalculated.”"
-        ]
+            "\u201cI guess you just don't know people as well as you think you do. You miscalculated.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ty Lee",
@@ -1064,8 +1105,9 @@
         "Image": "images/characters/Ty_Lee.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Calm down, you guys. This much negative energy is bad for your skin. You'll totally break out”"
-        ]
+            "\u201cCalm down, you guys. This much negative energy is bad for your skin. You'll totally break out\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ursa",
@@ -1088,8 +1130,9 @@
         "Image": "images/characters/Ursa.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Everything I've done, I've done to protect you. Remember this... No matter how things may seem to change, never forget who you are.”"
-        ]
+            "\u201cEverything I've done, I've done to protect you. Remember this... No matter how things may seem to change, never forget who you are.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Fire Lord Azulon",
@@ -1114,9 +1157,10 @@
         "Image": "images/characters/Fire_Lord_Azulon.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“I think Iroh has suffered enough. But you, your punishment has scarcely begun!”",
+            "\u201cI think Iroh has suffered enough. But you, your punishment has scarcely begun!\u201d",
             "This character is Zuko's Grandfather."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lu Ten",
@@ -1141,7 +1185,8 @@
         "Hints": [
             "This character is mentioned often by name, but passed away before the events of Avatar: The Last Airbender.",
             "This character is related to Zuko."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Shyu",
@@ -1166,8 +1211,9 @@
         "Image": "images/characters/Shyu.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“It was once the sages' duty. It is still our duty.”"
-        ]
+            "\u201cIt was once the sages' duty. It is still our duty.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yon Rha",
@@ -1191,8 +1237,9 @@
         "Image": "images/characters/Yon_Rha.jpg",
         "Hints": [
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“I'm afraid I'm not taking prisoners today.”"
-        ]
+            "\u201cI'm afraid I'm not taking prisoners today.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Fire Lord Izumi",
@@ -1216,9 +1263,10 @@
         "Image": "images/characters/Fire_Lord_Izumi.jpg",
         "Hints": [
             "This character first appears in Book 4 of The Legend of Korra.",
-            "“The Fire Nation has spent too much of its history fighting nonsense wars, and I refuse to drag my nation into another one unless there's no other choice.”",
+            "\u201cThe Fire Nation has spent too much of its history fighting nonsense wars, and I refuse to drag my nation into another one unless there's no other choice.\u201d",
             "This character is the Fire Lord during The Legend of Korra."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Hakoda",
@@ -1242,9 +1290,10 @@
         "Image": "images/characters/Chief_Hakoda.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender in a flashback, and Book 2 in-person.",
-            "“We lost today, but we've never been closer. We tasted victory, and that counts for something.”",
+            "\u201cWe lost today, but we've never been closer. We tasted victory, and that counts for something.\u201d",
             "This character is related to Katara and Sokka."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kya",
@@ -1267,9 +1316,10 @@
         "Image": "images/characters/Kya.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender in a vision.",
-            "“Just let her go, and I'll give you the information you want.”",
+            "\u201cJust let her go, and I'll give you the information you want.\u201d",
             "This character passed away before the events of Avatar: The Last Airbender."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kya II",
@@ -1294,8 +1344,9 @@
         "Image": "images/characters/Kya_II.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“You seem to have some grandiose delusion that we had a perfect, happy-go-lucky childhood. Guess what? We didn't!”"
-        ]
+            "\u201cYou seem to have some grandiose delusion that we had a perfect, happy-go-lucky childhood. Guess what? We didn't!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Bato",
@@ -1318,9 +1369,10 @@
         "Image": "images/characters/Bato.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“For this is to be done right, I cannot help. You pass or fail on your own.”",
+            "\u201cFor this is to be done right, I cannot help. You pass or fail on your own.\u201d",
             "This character is a close friend of Chief Hakoda."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Arnook",
@@ -1342,9 +1394,10 @@
         "Image": "images/characters/Chief_Arnook.jpg",
         "Hints": [
             "This character only appears in Book 1 of Avatar: The Last Airbender.",
-            "“Spirit of the Ocean! Spirit of the Moon! Be with us!”",
+            "\u201cSpirit of the Ocean! Spirit of the Moon! Be with us!\u201d",
             "This character is related to Princess Yue."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kanna (Gran Gran)",
@@ -1367,8 +1420,9 @@
         "Image": "images/characters/Kanna.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“It's been so long since I've had hope, but you brought it back to life, my little waterbender.”"
-        ]
+            "\u201cIt's been so long since I've had hope, but you brought it back to life, my little waterbender.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yagoda",
@@ -1392,8 +1446,9 @@
         "Image": "images/characters/Yagoda.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Are you here for the healing lesson?”"
-        ]
+            "\u201cAre you here for the healing lesson?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hahn",
@@ -1415,8 +1470,9 @@
         "Image": "images/characters/Hahn.jpg",
         "Hints": [
             "This character only appears in Book 1 of Avatar: The Last Airbender.",
-            "“Admiral Choi! Prepare to meet your fate!”"
-        ]
+            "\u201cAdmiral Choi! Prepare to meet your fate!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hama",
@@ -1440,8 +1496,9 @@
         "Image": "images/characters/Hama.jpg",
         "Hints": [
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“There's water in places you never think about.”"
-        ]
+            "\u201cThere's water in places you never think about.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Tonraq",
@@ -1466,8 +1523,9 @@
         "Image": "images/characters/Chief_Tonraq.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“I was protecting you from the shame I brought on the family.”"
-        ]
+            "\u201cI was protecting you from the shame I brought on the family.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Unalaq",
@@ -1493,8 +1551,9 @@
         "Image": "images/characters/Chief_Unalaq.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“You call yourself the bridge between the two worlds, but there shouldn't be a bridge; we should live together as one.”"
-        ]
+            "\u201cYou call yourself the bridge between the two worlds, but there shouldn't be a bridge; we should live together as one.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Eska",
@@ -1519,8 +1578,9 @@
         "Image": "images/characters/Eska.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“Eternal darkness was upon us. I became caught up in the moment.”"
-        ]
+            "\u201cEternal darkness was upon us. I became caught up in the moment.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Desna",
@@ -1545,8 +1605,9 @@
         "Image": "images/characters/Desna.jpg",
         "Hints": [
             "This character first appears in Book 2 of The Legend of Korra.",
-            "“I am so done with spirits.”"
-        ]
+            "\u201cI am so done with spirits.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Monk Gyatso",
@@ -1572,8 +1633,9 @@
         "Image": "images/characters/Monk_Gyatso.jpg",
         "Hints": [
             "This character's first on-screen appearance is in Book 1 of Avatar: The Last Airbender.",
-            "“We can't concern ourselves with what was. We must act on what is.”"
-        ]
+            "\u201cWe can't concern ourselves with what was. We must act on what is.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ikki",
@@ -1599,8 +1661,9 @@
         "Image": "images/characters/Ikki.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Being part of a family is hard, huh, Daddy?”"
-        ]
+            "\u201cBeing part of a family is hard, huh, Daddy?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Meelo",
@@ -1626,8 +1689,9 @@
         "Image": "images/characters/Meelo.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“You're pretty. Can I have some of your hair?”"
-        ]
+            "\u201cYou're pretty. Can I have some of your hair?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Bumi II",
@@ -1653,8 +1717,9 @@
         "Image": "images/characters/Bumi_II.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Top Side, this is Papa Bear. The Breezies are in the hole. Cue the balloons.”"
-        ]
+            "\u201cTop Side, this is Papa Bear. The Breezies are in the hole. Cue the balloons.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kai",
@@ -1679,8 +1744,9 @@
         "Image": "images/characters/Kai.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“Just because I was blown out of the sky, and fell hundreds of feet down a cliff? Don't you know it takes more than that to get rid of me?”"
-        ]
+            "\u201cJust because I was blown out of the sky, and fell hundreds of feet down a cliff? Don't you know it takes more than that to get rid of me?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Opal Beifong",
@@ -1707,8 +1773,9 @@
         "Image": "images/characters/Opal_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“I don't care about the oath! I have to save my family!”"
-        ]
+            "\u201cI don't care about the oath! I have to save my family!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Suyin Beifong",
@@ -1735,8 +1802,9 @@
         "Image": "images/characters/Suyin_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“No wonder Tenzin ended things with you years ago.”"
-        ]
+            "\u201cNo wonder Tenzin ended things with you years ago.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Baatar",
@@ -1760,8 +1828,9 @@
         "Image": "images/characters/Baatar.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“Sorry, dear, I'm going to have to take dinner to my office. I just had a major breakthrough on the tram station model.”"
-        ]
+            "\u201cSorry, dear, I'm going to have to take dinner to my office. I just had a major breakthrough on the tram station model.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Baatar Jr.",
@@ -1786,8 +1855,9 @@
         "Image": "images/characters/Baatar_Jr_.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“And you of all people should realize that once a discovery is made, it is our responsibility as scientists to pursue it as far as we can. Wherever it leads.”"
-        ]
+            "\u201cAnd you of all people should realize that once a discovery is made, it is our responsibility as scientists to pursue it as far as we can. Wherever it leads.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Huan Beifong",
@@ -1813,8 +1883,9 @@
         "Image": "images/characters/Huan.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“You're crushing my individuality!”"
-        ]
+            "\u201cYou're crushing my individuality!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Wei Beifong",
@@ -1840,8 +1911,9 @@
         "Image": "images/characters/Wei_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“I wanna power disc your face.”"
-        ]
+            "\u201cI wanna power disc your face.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Wing Beifong",
@@ -1867,8 +1939,9 @@
         "Image": "images/characters/Wing_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“I can't believe I'm sparring with the Avatar!”"
-        ]
+            "\u201cI can't believe I'm sparring with the Avatar!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Aiwei",
@@ -1895,8 +1968,9 @@
         "Image": "images/characters/Aiwei.jpg",
         "Hints": [
             "This character only appears in Book 3 of The Legend of Korra.",
-            "“You have no idea what is coming for you, Avatar.”"
-        ]
+            "\u201cYou have no idea what is coming for you, Avatar.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "King Bumi",
@@ -1922,8 +1996,9 @@
         "Image": "images/characters/King_Bumi.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Uh, take them to the refurbished chamber that was once bad!”"
-        ]
+            "\u201cUh, take them to the refurbished chamber that was once bad!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Master Pakku",
@@ -1950,8 +2025,9 @@
         "Image": "images/characters/Master_Pakku.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“You have disrespected me, my teachings, and my entire culture!”"
-        ]
+            "\u201cYou have disrespected me, my teachings, and my entire culture!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Master Jeong Jeong",
@@ -1978,8 +2054,9 @@
         "Image": "images/characters/Master_Jeong_Jeong.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Destiny? What would a boy know of destiny? If a fish lives it's whole life in this river, does he know the river's destiny?”"
-        ]
+            "\u201cDestiny? What would a boy know of destiny? If a fish lives it's whole life in this river, does he know the river's destiny?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Master Piandao",
@@ -2001,8 +2078,9 @@
         "Image": "images/characters/Master_Piandao.jpg",
         "Hints": [
             "This character first appears in Book 3 of Avatar: The Last Airbender.",
-            "“I think I'm a little old to be fighting the Avatar.”"
-        ]
+            "\u201cI think I'm a little old to be fighting the Avatar.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Zaheer",
@@ -2026,8 +2104,9 @@
         "Image": "images/characters/Zaheer.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“When you base your expectations only on what you see, you blind yourself to the possibilities of a new reality.”"
-        ]
+            "\u201cWhen you base your expectations only on what you see, you blind yourself to the possibilities of a new reality.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ming-Hua",
@@ -2051,8 +2130,9 @@
         "Image": "images/characters/Ming_Hua.jpg",
         "Hints": [
             "This character only appears in Book 3 of The Legend of Korra.",
-            "“We could have just taken the elevator. Show-off.”"
-        ]
+            "\u201cWe could have just taken the elevator. Show-off.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ghazan",
@@ -2076,8 +2156,9 @@
         "Image": "images/characters/Ghazan.jpg",
         "Hints": [
             "This character only appears in Book 3 of The Legend of Korra.",
-            "“I'm never going back to prison. If I'm going down today, you're coming with me!”"
-        ]
+            "\u201cI'm never going back to prison. If I'm going down today, you're coming with me!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "P'Li",
@@ -2101,8 +2182,9 @@
         "Image": "images/characters/P_Li.jpg",
         "Hints": [
             "This character only appears in Book 3 of The Legend of Korra.",
-            "“Years apart only made my love for you stronger...You've shown me what true freedom means.”"
-        ]
+            "\u201cYears apart only made my love for you stronger...You've shown me what true freedom means.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jet",
@@ -2125,8 +2207,9 @@
         "Image": "images/characters/Jet.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Have you forgotten that the Fire Nation killed your mother? Remember why you fight!”"
-        ]
+            "\u201cHave you forgotten that the Fire Nation killed your mother? Remember why you fight!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Pipsqueak",
@@ -2150,8 +2233,9 @@
         "Image": "images/characters/Pipsqueak.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Listen, Sokka. Jet's a great leader. We follow what he says, and things always turn out okay.”"
-        ]
+            "\u201cListen, Sokka. Jet's a great leader. We follow what he says, and things always turn out okay.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Smellerbee",
@@ -2175,8 +2259,9 @@
         "Image": "images/characters/Smellerbee.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“As long as I'm confident with who I am, it doesn't matter what other people think.”"
-        ]
+            "\u201cAs long as I'm confident with who I am, it doesn't matter what other people think.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Longshot",
@@ -2200,8 +2285,9 @@
         "Image": "images/characters/Longshot.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“There's no time. Just go. We'll take care of him. He's our leader.”"
-        ]
+            "\u201cThere's no time. Just go. We'll take care of him. He's our leader.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Duke",
@@ -2225,8 +2311,9 @@
         "Image": "images/characters/The_Duke.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Hey, Jet, these barrels are filled of blasting jelly!”"
-        ]
+            "\u201cHey, Jet, these barrels are filled of blasting jelly!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lieutenant",
@@ -2248,8 +2335,9 @@
         "Image": "images/characters/Lieutenant.jpg",
         "Hints": [
             "This character only appears in Book 1 of The Legend of Korra.",
-            "“You benders need to understand ... there's no place in the world for you anymore.”"
-        ]
+            "\u201cYou benders need to understand ... there's no place in the world for you anymore.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Aang",
@@ -2283,8 +2371,9 @@
         "Image": "images/characters/Avatar_Aang.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender",
-            "“I wasn't there when the Fire Nation attacked my people. I'm gonna make a difference this time.”"
-        ]
+            "\u201cI wasn't there when the Fire Nation attacked my people. I'm gonna make a difference this time.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Korra",
@@ -2319,8 +2408,9 @@
         "Image": "images/characters/Avatar_Korra.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“No matter what happens, no matter how crazy things get, I'll always try to restore balance.”"
-        ]
+            "\u201cNo matter what happens, no matter how crazy things get, I'll always try to restore balance.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Senna",
@@ -2345,8 +2435,9 @@
         "Image": "images/characters/Senna.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“We knew one day the world would need you, and you wouldn't need us anymore.”"
-        ]
+            "\u201cWe knew one day the world would need you, and you wouldn't need us anymore.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Katara",
@@ -2376,8 +2467,9 @@
         "Image": "images/characters/Katara.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“I will never, ever turn my back on people who need me!”"
-        ]
+            "\u201cI will never, ever turn my back on people who need me!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Sokka",
@@ -2404,8 +2496,9 @@
         "Image": "images/characters/Sokka.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“You think you're so smart, with your fancy little words. This is not so hard”"
-        ]
+            "\u201cYou think you're so smart, with your fancy little words. This is not so hard\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Toph Beifong",
@@ -2439,8 +2532,9 @@
         "Image": "images/characters/Toph_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Alright, let's break some rules!”"
-        ]
+            "\u201cAlright, let's break some rules!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Suki",
@@ -2465,8 +2559,9 @@
         "Image": "images/characters/Suki.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Sorry Warden. You're my prisoner now.”"
-        ]
+            "\u201cSorry Warden. You're my prisoner now.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Zuko",
@@ -2497,8 +2592,9 @@
         "Image": "images/characters/Zuko.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“You've always thrown everything you could at me! Well, I can take it! And now I can give it back!”"
-        ]
+            "\u201cYou've always thrown everything you could at me! Well, I can take it! And now I can give it back!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Uncle Iroh",
@@ -2529,8 +2625,9 @@
         "Image": "images/characters/Uncle_Iroh.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“In the darkest times, hope is something you give yourself. That is the meaning of inner strength.”"
-        ]
+            "\u201cIn the darkest times, hope is something you give yourself. That is the meaning of inner strength.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Azula",
@@ -2556,8 +2653,9 @@
         "Image": "images/characters/Azula.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Maybe you should worry less about the tides, who've already made up their mind about killing you, and worry more about me, who's still mulling it over.”"
-        ]
+            "\u201cMaybe you should worry less about the tides, who've already made up their mind about killing you, and worry more about me, who's still mulling it over.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Mako",
@@ -2585,8 +2683,9 @@
         "Image": "images/characters/Mako.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Looks like you had some car trouble. Good thing the police are here.”"
-        ]
+            "\u201cLooks like you had some car trouble. Good thing the police are here.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Bolin",
@@ -2614,8 +2713,9 @@
         "Image": "images/characters/Bolin.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“You're a bad idea!”"
-        ]
+            "\u201cYou're a bad idea!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Asami Sato",
@@ -2638,8 +2738,9 @@
         "Image": "images/characters/Asami_Sato.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“People usually assume that I'm daddy's helpless little girl, but I can handle myself.”"
-        ]
+            "\u201cPeople usually assume that I'm daddy's helpless little girl, but I can handle myself.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hiroshi Sato",
@@ -2661,8 +2762,9 @@
         "Image": "images/characters/Hiroshi_Sato.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“I know what you all must think of me, but I love Republic City, and I would do anything to save her.”"
-        ]
+            "\u201cI know what you all must think of me, but I love Republic City, and I would do anything to save her.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lin Beifong",
@@ -2688,8 +2790,9 @@
         "Image": "images/characters/Lin_Beifong.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“You need to make decisions based on what you want. Don't make the same mistakes I did.”"
-        ]
+            "\u201cYou need to make decisions based on what you want. Don't make the same mistakes I did.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tenzin",
@@ -2716,8 +2819,9 @@
         "Image": "images/characters/Tenzin.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“As long as I'm breathing, it's not over.”"
-        ]
+            "\u201cAs long as I'm breathing, it's not over.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Pema",
@@ -2741,8 +2845,9 @@
         "Image": "images/characters/Pema.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Watching my soulmate spend his life with the wrong woman became too painful.”"
-        ]
+            "\u201cWatching my soulmate spend his life with the wrong woman became too painful.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Amon/Noatak",
@@ -2766,8 +2871,9 @@
         "Image": "images/characters/Amon.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“Our showdown, while inevitable, is premature.”"
-        ]
+            "\u201cOur showdown, while inevitable, is premature.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kuvira",
@@ -2793,8 +2899,9 @@
         "Image": "images/characters/Kuvira.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“Stop groveling as if this is the worst day of your life. This is a good day.”"
-        ]
+            "\u201cStop groveling as if this is the worst day of your life. This is a good day.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Rohan",
@@ -2821,7 +2928,8 @@
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
             "This character is a baby."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Wan",
@@ -2848,8 +2956,9 @@
         "Image": "images/characters/Avatar_Wan.jpg",
         "Hints": [
             "This character only appears in Book 2 of the Legend of Korra.",
-            "“Haven't you heard the legends? I'm not a regular human anymore.”"
-        ]
+            "\u201cHaven't you heard the legends? I'm not a regular human anymore.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Wan Shi Tong",
@@ -2873,8 +2982,9 @@
         "Image": "images/characters/Wan_Shi_Tong.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“You think you're the first person to believe their war was justified?”"
-        ]
+            "\u201cYou think you're the first person to believe their war was justified?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Mula",
@@ -2897,7 +3007,8 @@
         "Hints": [
             "This animals only appearance is in Book 2 of The Legend of Korra.",
             "This animal is an Avatar's Animal Guide."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Appa",
@@ -2925,7 +3036,8 @@
         "Hints": [
             "This animal first appeared in Book 1 of Avatar: The Last Airbender.",
             "This animal is an Avatar's Animal Guide."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Momo",
@@ -2949,7 +3061,8 @@
         "Hints": [
             "This animal first appeared in Book 1 of Avatar: The Last Airbender.",
             "This animal belongs to an Avatar."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Oogi",
@@ -2976,7 +3089,8 @@
         "Hints": [
             "This animal first appeared in Book 1 of The Legend of Korra.",
             "This animal is often used for transportation."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Combustion Man (Sparky Sparky Boom Man)",
@@ -3002,7 +3116,8 @@
         "Hints": [
             "This character first appeared in Book 3 of Avatar: The Last Airbender",
             "This character is an antagonist who never speaks, but is considered extremely dangerous."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Rangi",
@@ -3026,8 +3141,9 @@
         "Image": "images/characters/Rangi.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“If I were better at my job you would never feel scared. Only loved. Adored by all.”"
-        ]
+            "\u201cIf I were better at my job you would never feel scared. Only loved. Adored by all.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jianzhu",
@@ -3051,8 +3167,9 @@
         "Image": "images/characters/Jianzhu.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“The responsibility of keeping the Earth Kingdom stable and in balance with the other nations rightfully belongs to the Avatar. I'm only a stopgap measure. A substitute.”"
-        ]
+            "\u201cThe responsibility of keeping the Earth Kingdom stable and in balance with the other nations rightfully belongs to the Avatar. I'm only a stopgap measure. A substitute.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kelsang",
@@ -3076,8 +3193,9 @@
         "Image": "images/characters/Kelsang.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“I violated my beliefs as an airbender. I let my teachers down. I let my entire people down.”"
-        ]
+            "\u201cI violated my beliefs as an airbender. I let my teachers down. I let my entire people down.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hei-Ran",
@@ -3101,8 +3219,9 @@
         "Image": "images/characters/Hei_Ran.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“The stability of the Fire Nation is more important than my life.”"
-        ]
+            "\u201cThe stability of the Fire Nation is more important than my life.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tagaka",
@@ -3126,8 +3245,9 @@
         "Image": "images/characters/Tagaka.jpg",
         "Hints": [
             "This character only appears in The Rise of Kyoshi.",
-            "“How would you like a taste of true freedom? To go where you want and take what you're owed?”"
-        ]
+            "\u201cHow would you like a taste of true freedom? To go where you want and take what you're owed?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lek",
@@ -3152,8 +3272,9 @@
         "Image": "",
         "Hints": [
             "This character only appears in The Rise of Kyoshi.",
-            "“I learned how to earthbend, and I swore an oath that I'd never miss a target again.”"
-        ]
+            "\u201cI learned how to earthbend, and I swore an oath that I'd never miss a target again.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kirima",
@@ -3180,8 +3301,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“I'm not going to pass up the chance to go down in history as the Avatar's waterbending master.”"
-        ]
+            "\u201cI'm not going to pass up the chance to go down in history as the Avatar's waterbending master.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Wong",
@@ -3207,8 +3329,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“I may have gone a little overboard. I don't regret it.”"
-        ]
+            "\u201cI may have gone a little overboard. I don't regret it.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jinpa",
@@ -3234,8 +3357,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“I believe I have to make peace with my own choices, just like everyone else.”"
-        ]
+            "\u201cI believe I have to make peace with my own choices, just like everyone else.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tui",
@@ -3262,7 +3386,8 @@
         "Hints": [
             "This character appears in Book 1 of Avatar: The Last Airbender, and is part of a pair.",
             "This character plays a major part in the finale of Book 1."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "La",
@@ -3289,7 +3414,8 @@
         "Hints": [
             "This character appears in Book 1 of Avatar: The Last Airbender, and is part of a pair.",
             "This characters plays a major part in the finale of Book 1."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Admiral Zhao",
@@ -3315,8 +3441,9 @@
         "Image": "images/characters/Admiral_Zhao.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“Look at you. You were once so great. I can't believe my former master has become nothing more than a simple savage.”"
-        ]
+            "\u201cLook at you. You were once so great. I can't believe my former master has become nothing more than a simple savage.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "General Fong",
@@ -3340,8 +3467,9 @@
         "Image": "images/characters/General_Fong.jpg",
         "Hints": [
             "This character only appears in Book 2 of Avatar: The Last Airbender.",
-            "“You could save her if you were in the Avatar State!”"
-        ]
+            "\u201cYou could save her if you were in the Avatar State!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Long Feng",
@@ -3365,8 +3493,9 @@
         "Image": "images/characters/Long_Feng.jpg",
         "Hints": [
             "This character only appears in Book 2 of Avatar: The Last Airbender.",
-            "“Now comes the part where I double-cross you.”"
-        ]
+            "\u201cNow comes the part where I double-cross you.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Xin Fu",
@@ -3390,8 +3519,9 @@
         "Image": "images/characters/Xin_Fu.jpg",
         "Hints": [
             "This character only appears in Book 2 of Avatar: The Last Airbender.",
-            "“I think the Fire Nation will pay a hefty price for the Avatar. Now, get out of my ring.”"
-        ]
+            "\u201cI think the Fire Nation will pay a hefty price for the Avatar. Now, get out of my ring.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Master Yu",
@@ -3415,8 +3545,9 @@
         "Image": "images/characters/Master_Yu.jpg",
         "Hints": [
             "This character only appears in Book 2 of Avatar: The Last Airbender.",
-            "“If you pay for the whole year in advance, I'll bump you up to the next belt.”"
-        ]
+            "\u201cIf you pay for the whole year in advance, I'll bump you up to the next belt.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Song",
@@ -3438,8 +3569,9 @@
         "Image": "images/characters/Song.jpg",
         "Hints": [
             "This character's only appearance in Book 2 of Avatar: The Last Airbender.",
-            "“The Fire Nation has hurt you ... It's okay. They've hurt me, too.”"
-        ]
+            "\u201cThe Fire Nation has hurt you ... It's okay. They've hurt me, too.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "On Ji",
@@ -3461,8 +3593,9 @@
         "Image": "images/characters/On_Ji.jpg",
         "Hints": [
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“Don't worry. I'm not a tattletale.”"
-        ]
+            "\u201cDon't worry. I'm not a tattletale.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lo",
@@ -3486,8 +3619,9 @@
         "Image": "images/characters/Lo.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“But Ember Island is a magical place. Keep an open mind.”"
-        ]
+            "\u201cBut Ember Island is a magical place. Keep an open mind.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Li",
@@ -3511,8 +3645,9 @@
         "Image": "images/characters/Li.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Azula, we heard what happened. Why have you banished all your servants?”"
-        ]
+            "\u201cAzula, we heard what happened. Why have you banished all your servants?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ran",
@@ -3539,7 +3674,8 @@
         "Hints": [
             "This animal's only appearance is in Book 3 of Avatar: The Last Airbender.",
             "This animal is one of the last of its species."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Shaw",
@@ -3566,7 +3702,8 @@
         "Hints": [
             "This animal's only appearance is in Book 3 of Avatar: The Last Airbender.",
             "This animal is one of the last of its species."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Yangchen",
@@ -3597,8 +3734,9 @@
         "Image": "images/characters/Avatar_Yangchen.jpg",
         "Hints": [
             "This character first on-screen appearance is in Book 2 of Avatar: The Last Airbender, though their first on-screen dialogue is in Book 3.",
-            "“Selfless duty calls you to sacrifice your own spiritual needs and do whatever it takes to protect the world.”"
-        ]
+            "\u201cSelfless duty calls you to sacrifice your own spiritual needs and do whatever it takes to protect the world.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Avatar Szeto",
@@ -3630,7 +3768,8 @@
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender in a vision, though he wasn't given a name until The Shadow of Kyoshi. He has no lines.",
             "This character is one of Aang's past lives."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Shady Shin",
@@ -3652,8 +3791,9 @@
         "Image": "images/characters/Shady_Shin.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“It's just a little security work. Nothin' crooked.”"
-        ]
+            "\u201cIt's just a little security work. Nothin' crooked.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Toza",
@@ -3675,8 +3815,9 @@
         "Image": "images/characters/Toza.jpg",
         "Hints": [
             "This character only appears in Book 1 of Avatar: The Last Airbender.",
-            "“Ah, the old 'I had to pee' excuse!”"
-        ]
+            "\u201cAh, the old 'I had to pee' excuse!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lightning Bolt Zolt",
@@ -3700,8 +3841,9 @@
         "Image": "images/characters/Lightning_Bolt_Zolt.jpg",
         "Hints": [
             "This character only appears in Book 1 of The Legend of Korra.",
-            "“Ah, boo yourself!”"
-        ]
+            "\u201cAh, boo yourself!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Commander Guan",
@@ -3723,8 +3865,9 @@
         "Image": "images/characters/Commander_Guan.jpg",
         "Hints": [
             "This character first appears in Book 4 of The Legend of Korra as a background character, but their first lines of dialogue are in the Ruins of the Empire comic trilogy.",
-            "“And why should others get to reap the rewards of everything the Earth Empire accomplished?”"
-        ]
+            "\u201cAnd why should others get to reap the rewards of everything the Earth Empire accomplished?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yin",
@@ -3746,8 +3889,9 @@
         "Image": "images/characters/Yin.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“Bad dog and rat thingy! I'm very disappointed in you two.”"
-        ]
+            "\u201cBad dog and rat thingy! I'm very disappointed in you two.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tu",
@@ -3770,8 +3914,9 @@
         "Image": "images/characters/Tu.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“You don't know what it's like on the streets. You got to be tough.”"
-        ]
+            "\u201cYou don't know what it's like on the streets. You got to be tough.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Gun",
@@ -3793,8 +3938,9 @@
         "Image": "images/characters/Gun.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“I'm the one who gets in trouble when people don't follow [the rules], so please, please for my sake try not to upset Her Majesty.”"
-        ]
+            "\u201cI'm the one who gets in trouble when people don't follow [the rules], so please, please for my sake try not to upset Her Majesty.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Skoochy",
@@ -3816,8 +3962,9 @@
         "Image": "images/characters/Skoochy.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“My memory's a little 'foggy'. Maybe you can help 'clear it up'.”"
-        ]
+            "\u201cMy memory's a little 'foggy'. Maybe you can help 'clear it up'.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ryu",
@@ -3841,8 +3988,9 @@
         "Image": "images/characters/Ryu.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“Whatever. I didn't ask to become an airbender, you know.”"
-        ]
+            "\u201cWhatever. I didn't ask to become an airbender, you know.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yakone",
@@ -3866,8 +4014,9 @@
         "Image": "images/characters/Yakone.jpg",
         "Hints": [
             "This character only appears in Book 1 of The Legend of Korra",
-            "“Republic City is mine, Avatar. I'll be back one day to claim it.”"
-        ]
+            "\u201cRepublic City is mine, Avatar. I'll be back one day to claim it.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Daw",
@@ -3891,8 +4040,9 @@
         "Image": "images/characters/Daw.jpg",
         "Hints": [
             "This character first appears in Book 3 of The Legend of Korra.",
-            "“You guys should totally get shaved.”"
-        ]
+            "\u201cYou guys should totally get shaved.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Two-Toed Ping",
@@ -3915,8 +4065,9 @@
         "Image": "images/characters/Two_Toed_Ping.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“You just gotta relax, like me. Maybe try taking your shoes off.”"
-        ]
+            "\u201cYou just gotta relax, like me. Maybe try taking your shoes off.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Dock/Xu/Bushi",
@@ -3938,8 +4089,9 @@
         "Image": "images/characters/Doc_Xu_Bushi.jpg",
         "Hints": [
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“Would you like the one-headed fish, or the two-headed fish?”"
-        ]
+            "\u201cWould you like the one-headed fish, or the two-headed fish?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Painted Lady",
@@ -3962,8 +4114,9 @@
         "Image": "images/characters/Painted_Lady.jpg",
         "Hints": [
             "This spirits only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“Thank you.”"
-        ]
+            "\u201cThank you.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yun",
@@ -3987,8 +4140,9 @@
         "Image": "images/characters/Yun.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“I want justice. Everyone who lied to me is going to suffer the consequences.”"
-        ]
+            "\u201cI want justice. Everyone who lied to me is going to suffer the consequences.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lao Ge",
@@ -4012,8 +4166,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“To keep her crops alive, a farmer uproots the weeds that nature has placed in her fields, does she not?”"
-        ]
+            "\u201cTo keep her crops alive, a farmer uproots the weeds that nature has placed in her fields, does she not?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Xu Ping An",
@@ -4035,8 +4190,9 @@
         "Image": "",
         "Hints": [
             "This character only appears in The Rise of Kyoshi.",
-            "“What you don't understand is that men like me are beyond judgement.”"
-        ]
+            "\u201cWhat you don't understand is that men like me are beyond judgement.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Amak",
@@ -4061,7 +4217,8 @@
         "Hints": [
             "This character only appears in The Rise of Kyoshi.",
             "This character is killed during the events of The Rise of Kyoshi."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Akuudan",
@@ -4083,8 +4240,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“And you are a mess. I can bone set. Sit tight.”"
-        ]
+            "\u201cAnd you are a mess. I can bone set. Sit tight.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Mama Ayunerak",
@@ -4108,8 +4266,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“It's my job to know things, Kavik. My friends and I know a great deal. And I think it's high time you joined us.”"
-        ]
+            "\u201cIt's my job to know things, Kavik. My friends and I know a great deal. And I think it's high time you joined us.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Henshe",
@@ -4131,8 +4290,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“This city had ruined him. He'd make a mark on it in return.”"
-        ]
+            "\u201cThis city had ruined him. He'd make a mark on it in return.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jetsun",
@@ -4156,8 +4316,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“A hand either opens or closes. But it can't do either of those twice in a row.”"
-        ]
+            "\u201cA hand either opens or closes. But it can't do either of those twice in a row.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Jujinta",
@@ -4180,8 +4341,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“Every moment in the Avatar's service is a guided step along the true path.”"
-        ]
+            "\u201cEvery moment in the Avatar's service is a guided step along the true path.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Nujian",
@@ -4206,7 +4368,8 @@
         "Hints": [
             "This animal first appeared in 'The Rift' comics.",
             "This animal is an Avatar's Animal Guide."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tayagum",
@@ -4230,8 +4393,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“I have to smooth things over at the dock. I'll be back.”"
-        ]
+            "\u201cI have to smooth things over at the dock. I'll be back.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Thapa",
@@ -4256,7 +4420,8 @@
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
             "This character is part of the Unanimity project."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yingsu",
@@ -4281,7 +4446,8 @@
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
             "This character is part of the Unanimity project."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Xiaoyun",
@@ -4306,7 +4472,8 @@
         "Hints": [
             "This character only appears in The Dawn of Yangchen.",
             "This character is part of the Unanimity project."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chaisee",
@@ -4328,8 +4495,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“Working yourself to the brink of oblivion was pointless if you couldn't defend the life you made.”"
-        ]
+            "\u201cWorking yourself to the brink of oblivion was pointless if you couldn't defend the life you made.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kalyaan",
@@ -4351,8 +4519,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“A deep plant inside another zongdu's organization? Worth a fortune.”"
-        ]
+            "\u201cA deep plant inside another zongdu's organization? Worth a fortune.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kavik",
@@ -4374,8 +4543,9 @@
         "Image": "images/characters/Kavik.jpg",
         "Hints": [
             "This character first appears in The Dawn of Yangchen.",
-            "“What are the chances we can forget this ever happened? Genuinely asking.”"
-        ]
+            "\u201cWhat are the chances we can forget this ever happened? Genuinely asking.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Father Glowworm",
@@ -4397,8 +4567,9 @@
         "Image": "images/characters/Father_Glowworm.jpg",
         "Hints": [
             "This character first appears in The Rise of Kyoshi.",
-            "“It's this one. The girl. She's the Avatar.”"
-        ]
+            "\u201cIt's this one. The girl. She's the Avatar.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Cabbage Merchant (Cai)",
@@ -4421,8 +4592,9 @@
         "Image": "images/characters/Cabbage_Merchant.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "“My cabbages!”"
-        ]
+            "\u201cMy cabbages!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Joo Dee",
@@ -4445,8 +4617,9 @@
         "Image": "images/characters/Joo_Dee.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“You're in Ba Sing Se now. Everyone is safe here.”"
-        ]
+            "\u201cYou're in Ba Sing Se now. Everyone is safe here.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Gommu",
@@ -4468,8 +4641,9 @@
         "Image": "images/characters/Gommu.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“We got benders and nonbenders living together down here, but do you see us fightin'? No siree; we've figured out how to harmoniously co-exist.”"
-        ]
+            "\u201cWe got benders and nonbenders living together down here, but do you see us fightin'? No siree; we've figured out how to harmoniously co-exist.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Yue",
@@ -4493,8 +4667,9 @@
         "Image": "images/characters/Yue.jpg",
         "Hints": [
             "This character first appears in Book 1 of The Legend of Korra.",
-            "“It gave me life. Maybe I can give it back.”"
-        ]
+            "\u201cIt gave me life. Maybe I can give it back.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kuzon",
@@ -4518,8 +4693,9 @@
         "Image": "images/characters/Kuzon.jpg",
         "Hints": [
             "This character's name is mentioned several times in Avatar: The Last Airbender, but their only appearance is in the prequel comic 'Dragon Days'.",
-            "“That would be hot! Flamin' hot!”"
-        ]
+            "\u201cThat would be hot! Flamin' hot!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "General Old Iron",
@@ -4541,8 +4717,9 @@
         "Image": "images/characters/General_Old_Iron.jpg",
         "Hints": [
             "This character's only appearance is in The Rift comic trilogy.",
-            "“At the core of human nature is the will to dominate... there can be no balance between the Spirit World and the human one.”"
-        ]
+            "\u201cAt the core of human nature is the will to dominate... there can be no balance between the Spirit World and the human one.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Sneers",
@@ -4565,8 +4742,9 @@
         "Image": "images/characters/Sneers.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender as a background character, but their first lines of dialogue are in The Promise comic trilogy.",
-            "“Maybe we've been thinking about this all wrong. What if Yu Dao is neither Fire Nation nor Earth Kingdom?”"
-        ]
+            "\u201cMaybe we've been thinking about this all wrong. What if Yu Dao is neither Fire Nation nor Earth Kingdom?\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kori Morishita",
@@ -4590,8 +4768,9 @@
         "Image": "images/characters/Kori_Morishita.jpg",
         "Hints": [
             "This character first appears in The Promise comic trilogy.",
-            "“I am an earthbender and a Fire Nation citizen, and I live in Yu Dao! That's what I choose!”"
-        ]
+            "\u201cI am an earthbender and a Fire Nation citizen, and I live in Yu Dao! That's what I choose!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Ho Tun",
@@ -4613,8 +4792,9 @@
         "Image": "images/characters/Ho_Tun.jpg",
         "Hints": [
             "This character first appears in The Promise comic trilogy.",
-            "“When I first came to the academy, I saw doom everywhere. Now, I hardly see doom at all!”"
-        ]
+            "\u201cWhen I first came to the academy, I saw doom everywhere. Now, I hardly see doom at all!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Penga",
@@ -4636,8 +4816,9 @@
         "Image": "images/characters/Penga.jpg",
         "Hints": [
             "This character first appears in The Promise comic trilogy.",
-            "“I used to be obsessed with shoes. I couldn't go a single week without buying a brand new pair.”"
-        ]
+            "\u201cI used to be obsessed with shoes. I couldn't go a single week without buying a brand new pair.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Dark One",
@@ -4659,8 +4840,9 @@
         "Image": "images/characters/The_Dark_One.jpg",
         "Hints": [
             "This character first appears in The Promise comic trilogy.",
-            "“Why can't people see I'm more than just a pretty face?! I have the soul of a poet!”"
-        ]
+            "\u201cWhy can't people see I'm more than just a pretty face?! I have the soul of a poet!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hope",
@@ -4683,7 +4865,8 @@
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
             "This character is a baby."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kiyi",
@@ -4705,8 +4888,9 @@
         "Image": "images/characters/Kiyi.jpg",
         "Hints": [
             "This character first appears in The Search comic trilogy.",
-            "“Aw, what's the big deal? I knew Zuzu would keep us safe the whole time!”"
-        ]
+            "\u201cAw, what's the big deal? I knew Zuzu would keep us safe the whole time!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Kei Lo",
@@ -4728,8 +4912,9 @@
         "Image": "images/characters/Kei_Lo.jpg",
         "Hints": [
             "This character first appears in the Smoke and Shadow comic trilogy.",
-            "“Meeting you made me realize I that I don't want to belong to something anymore. I want to belong to someone.”"
-        ]
+            "\u201cMeeting you made me realize I that I don't want to belong to something anymore. I want to belong to someone.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Tom-Tom",
@@ -4752,8 +4937,9 @@
         "Image": "images/characters/Tom_Tom.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“Daddy, how come we gotta stay here? I miss mommy and Mai.”"
-        ]
+            "\u201cDaddy, how come we gotta stay here? I miss mommy and Mai.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "The Warden",
@@ -4776,8 +4962,9 @@
         "Image": "images/characters/The_Warden.jpg",
         "Hints": [
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
-            "“Look me in the eye when I'm talking to you.”"
-        ]
+            "\u201cLook me in the eye when I'm talking to you.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chit Sang",
@@ -4801,8 +4988,9 @@
         "Image": "images/characters/Chit_Sang.jpg",
         "Hints": [
             "This character only appears in Book 3 of Avatar: The Last Airbender.",
-            "“You're lucky I didn't rat you out, but my generosity comes with a price.”"
-        ]
+            "\u201cYou're lucky I didn't rat you out, but my generosity comes with a price.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Saikhan",
@@ -4824,8 +5012,9 @@
         "Image": "images/characters/Chief_Saikhan.jpg",
         "Hints": [
             "This character only appears in Book 1 of The Legend of Korra.",
-            "“It was an honor serving under Chief Beifong for so many years and I wish her a speedy recovery.”"
-        ]
+            "\u201cIt was an honor serving under Chief Beifong for so many years and I wish her a speedy recovery.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Sister Disha",
@@ -4849,8 +5038,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Reckoning of Roku.",
-            "“Our breath gives life to our words as much as our actions. Let both matter.”"
-        ]
+            "\u201cOur breath gives life to our words as much as our actions. Let both matter.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Malaya",
@@ -4874,8 +5064,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Reckoning of Roku.",
-            "“Hunting isn't about how accurately you can shoot an arrow or throw a spear...Most of a hunt is waiting, watching for the right moment.”"
-        ]
+            "\u201cHunting isn't about how accurately you can shoot an arrow or throw a spear...Most of a hunt is waiting, watching for the right moment.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Amihan",
@@ -4899,8 +5090,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Reckoning of Roku.",
-            "“It's like hunting or trapping – only our quarry can speak.”"
-        ]
+            "\u201cIt's like hunting or trapping \u2013 only our quarry can speak.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chief Ulo",
@@ -4922,8 +5114,9 @@
         "Image": "",
         "Hints": [
             "This character first appears in The Reckoning of Roku.",
-            "“You do not understand the outsiders as I do. They only seek knowledge to destroy.”"
-        ]
+            "\u201cYou do not understand the outsiders as I do. They only seek knowledge to destroy.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Hawky",
@@ -4946,7 +5139,8 @@
         "Hints": [
             "This animal's only appearance is in Book 3 of Avatar: The Last Airbender.",
             "This animal belongs to a member of Team Avatar."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Meng",
@@ -4966,8 +5160,9 @@
         "Image": "images/characters/Meng.jpg",
         "Hints": [
             "This character's only appearance is in Book 1 of Avatar: The Last Airbender.",
-            "“Floozy.”"
-        ]
+            "\u201cFloozy.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Noren/Ikem",
@@ -4987,8 +5182,9 @@
         "Image": "images/characters/Noren.jpg",
         "Hints": [
             "This character first appears in The Search comic trilogy.",
-            "“After you left, I died. Not literally, but I may as well have.”"
-        ]
+            "\u201cAfter you left, I died. Not literally, but I may as well have.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Mother of Faces",
@@ -5008,8 +5204,9 @@
         "Image": "images/characters/Mother_of_Faces.jpg",
         "Hints": [
             "This character first appears in The Search comic trilogy.",
-            "“In each face, I put a piece of my own being!”"
-        ]
+            "\u201cIn each face, I put a piece of my own being!\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Guru Pathik",
@@ -5029,8 +5226,9 @@
         "Image": "images/characters/Guru_Pathik.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“The greatest illusion of this world is the illusion of separation. Things you think are separate and different are actually one and the same.”"
-        ]
+            "\u201cThe greatest illusion of this world is the illusion of separation. Things you think are separate and different are actually one and the same.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Professor Zei",
@@ -5051,8 +5249,9 @@
         "Image": "images/characters/Professor_Zei.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "“I've spent too long trying to find this place ... There's not another collection of knowledge like this on Earth ... I could spend an eternity in here.”"
-        ]
+            "\u201cI've spent too long trying to find this place ... There's not another collection of knowledge like this on Earth ... I could spend an eternity in here.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Lee",
@@ -5072,9 +5271,10 @@
         "Image": "images/characters/Lee.jpg",
         "Hints": [
             "This character's only appearance is in Book 2 of Avatar: The Last Airbender.",
-            "“I think you'd really like my brother Sensu. He used to show me stuff like this all the time.”",
+            "\u201cI think you'd really like my brother Sensu. He used to show me stuff like this all the time.\u201d",
             "This character is from the episode 'Zuko Alone'."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Fire Lord Zoryu",
@@ -5096,8 +5296,9 @@
         "Image": "",
         "Hints": [
             "This character only appears in The Shadow of Kyoshi.",
-            "“I may not be the strongest ruler yet... But I would do anything for the sake of the Fire Nation. Please understand that.”"
-        ]
+            "\u201cI may not be the strongest ruler yet... But I would do anything for the sake of the Fire Nation. Please understand that.\u201d"
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Bum-Ju",
@@ -5120,7 +5321,8 @@
         "Hints": [
             "This spirit first appeared in Book 2 of The Legend of Korra.",
             "This spirit is the friend/companion of one of Katara and Aang's descendants."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Poki",
@@ -5142,7 +5344,8 @@
         "Hints": [
             "This animal first appears in Book 2 of The Legend of Korra.",
             "This animal is the pet of one of Katara and Aang's descendants."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Chin the Conqueror",
@@ -5162,7 +5365,8 @@
         "Image": "images/characters/Chin_the_Conqueror.jpg",
         "Hints": [
             "This character only appears in flashbacks in Avatar: The Last Airbender, though he was the focal point of an entire episode in Book 2."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     },
     {
         "Name": "Flopsie",
@@ -5183,6 +5387,7 @@
         "Hints": [
             "This animal first appears in Book 1 of Avatar: The Last Airbender.",
             "This animal is the pet of one of Aang's childhood friends."
-        ]
+        ],
+        "Difficulty": "InputDifficulty"
     }
 ]
