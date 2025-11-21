@@ -1361,7 +1361,7 @@
             "This character first appears in Book 2 of The Legend of Korra.",
             "\u201cYou seem to have some grandiose delusion that we had a perfect, happy-go-lucky childhood. Guess what? We didn't!\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Easy"
     },
     {
         "Name": "Bato",
@@ -1595,7 +1595,7 @@
             "This character first appears in Book 2 of The Legend of Korra.",
             "\u201cEternal darkness was upon us. I became caught up in the moment.\u201d"
         ],
-        "Difficulty": "Easy"
+        "Difficulty": "Medium"
     },
     {
         "Name": "Desna",
@@ -1622,7 +1622,7 @@
             "This character first appears in Book 2 of The Legend of Korra.",
             "\u201cI am so done with spirits.\u201d"
         ],
-        "Difficulty": "Easy"
+        "Difficulty": "Medium"
     },
     {
         "Name": "Monk Gyatso",
@@ -3929,7 +3929,7 @@
             "This character first appears in Book 3 of The Legend of Korra.",
             "\u201cBad dog and rat thingy! I'm very disappointed in you two.\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "Tu",
@@ -4157,7 +4157,7 @@
             "This spirits only appearance is in Book 3 of Avatar: The Last Airbender.",
             "\u201cThank you.\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "Yun",

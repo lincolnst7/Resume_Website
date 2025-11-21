@@ -4,6 +4,7 @@ let targetCharacter = null;
 let guessCount = 0;
 let gameActive = false;
 let hintIndex = 0; // Track which hint we're on
+let selectedDifficulty = 'Medium'; // Default difficulty
 
 // DOM Elements
 const gameSettings = document.getElementById('gameSettings');
@@ -15,9 +16,17 @@ const gameComplete = document.getElementById('gameComplete');
 const successMessage = document.getElementById('successMessage');
 const playButton = document.getElementById('playButton');
 const replayButton = document.getElementById('replayButton');
-const settingsButton = document.getElementById('settingsButton');
 const settingsModal = document.getElementById('settingsModal');
 const settingsClose = document.querySelector('.settings-close');
+
+// Difficulty elements
+const easyBtn = document.getElementById('easyBtn');
+const mediumBtn = document.getElementById('mediumBtn');
+const hardBtn = document.getElementById('hardBtn');
+const difficultyDescription = document.getElementById('difficultyDescription');
+
+// Settings play button
+const settingsPlayButton = document.getElementById('settingsPlayButton');
 
 // Settings Modal Functions
 function openSettingsModal() {
@@ -29,7 +38,6 @@ function closeSettingsModal() {
 }
 
 // Settings Modal Event Listeners
-settingsButton.addEventListener('click', openSettingsModal);
 settingsClose.addEventListener('click', closeSettingsModal);
 
 // Game complete settings button
@@ -51,6 +59,32 @@ document.addEventListener('keydown', function(event) {
         closeSettingsModal();
     }
 });
+
+// Difficulty button event listeners
+easyBtn.addEventListener('click', () => selectDifficulty('Easy'));
+mediumBtn.addEventListener('click', () => selectDifficulty('Medium'));
+hardBtn.addEventListener('click', () => selectDifficulty('Hard'));
+
+// Settings play button event listener
+settingsPlayButton.addEventListener('click', startGame);
+
+// Function to handle difficulty selection
+function selectDifficulty(difficulty) {
+    selectedDifficulty = difficulty;
+    
+    // Update button styles
+    easyBtn.classList.toggle('selected', difficulty === 'Easy');
+    mediumBtn.classList.toggle('selected', difficulty === 'Medium');
+    hardBtn.classList.toggle('selected', difficulty === 'Hard');
+    
+    // Update description
+    const descriptions = {
+        'Easy': 'Main/Prominent characters only.',
+        'Medium': 'Even mix of main and side characters.',
+        'Hard': 'Minor/background characters included.'
+    };
+    difficultyDescription.textContent = descriptions[difficulty];
+}
 
 // Mobile keyboard handling - browser handles positioning automatically
 if (window.innerWidth <= 600) {
@@ -178,9 +212,17 @@ function getFilteredCharacters() {
     console.log("Selected appearances:", selectedAppearances);
     console.log("Characters loaded:", characters.length);
 
-    const filtered = characters.filter(char =>
+    let filtered = characters.filter(char =>
         char.Appearances.some(appearance => selectedAppearances.includes(appearance))
     );
+
+    // Filter by difficulty
+    if (selectedDifficulty === 'Easy') {
+        filtered = filtered.filter(char => char.Difficulty === 'Easy');
+    } else if (selectedDifficulty === 'Medium') {
+        filtered = filtered.filter(char => char.Difficulty === 'Easy' || char.Difficulty === 'Medium');
+    }
+    // For 'Hard', include all characters (no additional filtering)
 
     console.log("Filtered characters:", filtered.length);
     return filtered;
@@ -188,6 +230,9 @@ function getFilteredCharacters() {
 
 // Start new game
 function startGame() {
+    // Close settings modal if it's open
+    closeSettingsModal();
+    
     const filteredCharacters = getFilteredCharacters();
     if (filteredCharacters.length === 0) {
         alert('Please select at least one appearance type');
@@ -421,10 +466,10 @@ function selectSuggestion(character) {
 function checkGuess(guess) {
     const results = {};
     
-    // Compare each property (excluding Hints and Image)
+    // Compare each property (excluding Hints, Image, and Difficulty)
     Object.keys(guess).forEach(key => {
-        if (key === 'Hints' || key === 'Image') {
-            return; // Skip Hints and Image columns
+        if (key === 'Hints' || key === 'Image' || key === 'Difficulty') {
+            return; // Skip Hints, Image, and Difficulty columns
         }
         if (key === 'Appearances') {
             // Check for overlap in appearances
@@ -548,7 +593,7 @@ function displayGuess(character, results) {
 
     let colIndex = 0;
     Object.entries(results).forEach(([key, result], index) => {
-        if (key !== 'Image' && key !== 'Hints') {  // Skip the Image and Hints columns
+        if (key !== 'Image' && key !== 'Hints' && key !== 'Difficulty') {  // Skip the Image, Hints, and Difficulty columns
             const cell = document.createElement('div');
             cell.className = `guess-cell ${result}`;
             // For the leftmost cell (Name), add image above name, stacked vertically
@@ -862,6 +907,7 @@ function initGame() {
   loadCharacters();
   setupGameControls();
   setupCheckboxListeners();
+  selectDifficulty('Medium'); // Initialize difficulty selection
   playButton.disabled = false;
 }
 initGame();
@@ -978,7 +1024,7 @@ document.getElementById('columnInfoOverlay').addEventListener('click', (e) => {
 });
 
 // Event listeners
-playButton.addEventListener('click', startGame);
+playButton.addEventListener('click', openSettingsModal);
 replayButton.addEventListener('click', startGame);
 characterInput.addEventListener('input', handleInput);
 characterInput.addEventListener('keypress', (e) => {

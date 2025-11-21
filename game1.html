@@ -37,8 +37,6 @@
                 
                 <p>Keep guessing characters until<br>all the squares are green!</p>
             </div>
-            <!-- Settings button to open modal -->
-            <button id="settingsButton" class="settings-button">Settings</button>
             <button id="playButton" class="play-button" disabled>Play</button>
 
         </div>
@@ -118,7 +116,15 @@
     <div id="settingsModal" class="settings-modal" style="display: none;">
         <div class="settings-modal-content">
             <span class="settings-close">&times;</span>
-            <h2 class="settings-title">Character Settings</h2>
+            <h2 class="settings-title">Settings</h2>
+            <div class="difficulty-section">
+                <div class="difficulty-buttons">
+                    <button id="easyBtn" class="difficulty-btn">Easy</button>
+                    <button id="mediumBtn" class="difficulty-btn selected">Medium</button>
+                    <button id="hardBtn" class="difficulty-btn">Hard</button>
+                </div>
+                <p id="difficultyDescription" class="difficulty-description">Even mix of main and side characters.</p>
+            </div>
             <p class="checkbox-header">Include Characters from:</p>
             <div class="checkbox-container">
                 <div class="checkbox-group">
@@ -169,6 +175,7 @@
                         </div>
                     </div>
                 </div>
+                <button id="settingsPlayButton" class="settings-play-button">Play</button>
             </div>
         </div>
     </div>
