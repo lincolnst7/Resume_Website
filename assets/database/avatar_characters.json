@@ -10,10 +10,12 @@
             "Firebender"
         ],
         "Special Skills": [
-            "Lightning Generation"
+            "Lightning Generation",
+            "Jet Propulsion"
         ],
         "Affiliation/Group": [
-            "Fire Nation Royal Family"
+            "Fire Nation Royal Family",
+            "Fire Nation Military"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -46,7 +48,8 @@
         ],
         "Image": "images/characters/Naga.jpg",
         "Hints": [
-            "This animal first appeared in Book 1 of The Legend of Korra."
+            "This animal first appeared in Book 1 of The Legend of Korra.",
+            "This animal belongs to an Avatar."
         ],
         "Difficulty": "Easy"
     },
@@ -158,7 +161,8 @@
         ],
         "Image": "images/characters/Fang.jpg",
         "Hints": [
-            "This animal first appeared in Book 1 of Avatar: The Last Airbender in spirit form, and Book 3 in physical form (during a flashback)."
+            "This animal first appeared in Book 1 of Avatar: The Last Airbender in spirit form, and Book 3 in physical form (during a flashback).",
+            "This animal belongs to an Avatar."
         ],
         "Difficulty": "Hard"
     },
@@ -184,7 +188,8 @@
         ],
         "Affiliation/Group": [
             "Avatars",
-            "Flying Opera Company"
+            "Flying Opera Company",
+            "Daofei"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -276,7 +281,8 @@
         ],
         "Image": "images/characters/Hei_Bai.jpg",
         "Hints": [
-            "This spirit first appeared in Book 1 of Avatar: The Last Airbender."
+            "This spirit first appeared in Book 1 of Avatar: The Last Airbender.",
+            "This spirit can shape-shift into an animal."
         ],
         "Difficulty": "Medium"
     },
@@ -289,7 +295,7 @@
         "Place of Origin": "Spirit World",
         "Bending type": "None",
         "Special Skills": [
-            "None"
+            "Avatar State"
         ],
         "Affiliation/Group": [
             "Spirits"
@@ -337,7 +343,7 @@
         "Place of Origin": "Spirit World",
         "Bending type": "None",
         "Special Skills": [
-            "None"
+            "Human Possession"
         ],
         "Affiliation/Group": [
             "Spirits"
@@ -365,7 +371,7 @@
         ],
         "Affiliation/Group": [
             "United Forces",
-            "United Republic Leadership"
+            "Republic City Leadership"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -445,7 +451,8 @@
             "Lightning Generation"
         ],
         "Affiliation/Group": [
-            "United Forces"
+            "United Forces",
+            "Fire Nation Royal Family"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -472,7 +479,7 @@
             "Bloodbending"
         ],
         "Affiliation/Group": [
-            "Republic City Council"
+            "United Republic Leadership"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -578,7 +585,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Invasion Fighters"
+            "Invasion Fighters",
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -605,7 +613,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Invasion Fighters"
+            "Invasion Fighters",
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -676,7 +685,7 @@
         "Place of Origin": "Earth Kingdom",
         "Bending type": "None",
         "Special Skills": [
-            "Tracking"
+            "Whip"
         ],
         "Affiliation/Group": [
             "Bounty Hunters"
@@ -712,7 +721,8 @@
         ],
         "Image": "images/characters/Nyla.jpg",
         "Hints": [
-            "This animal first appeared in Book 1 of Avatar: The Last Airbender"
+            "This animal first appeared in Book 1 of Avatar: The Last Airbender",
+            "This animal is primarily known for tracking."
         ],
         "Difficulty": "Medium"
     },
@@ -835,7 +845,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "None"
+            "Ba Sing Se"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -992,7 +1002,9 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Earth Kingdom Leadership"
+            "Earth Kingdom Leadership",
+            "Ba Sing Se",
+            "Dai Li"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -1017,7 +1029,8 @@
             "Singing"
         ],
         "Affiliation/Group": [
-            "Earth Kingdom Leadership"
+            "Earth Kingdom Leadership",
+            "Ba Sing Se"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -1044,7 +1057,8 @@
             "Heat Redirection"
         ],
         "Affiliation/Group": [
-            "Fire Nation Royal Family"
+            "Fire Nation Royal Family",
+            "Fire Nation Military"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -1148,7 +1162,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Fire Nation Royal Family"
+            "Fire Nation Royal Family",
+            "Fire Nation Military"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -1157,8 +1172,7 @@
         "Image": "images/characters/Fire_Lord_Azulon.jpg",
         "Hints": [
             "This character first appears in Book 2 of Avatar: The Last Airbender.",
-            "\u201cI think Iroh has suffered enough. But you, your punishment has scarcely begun!\u201d",
-            "This character is Zuko's Grandfather."
+            "\u201cI think Iroh has suffered enough. But you, your punishment has scarcely begun!\u201d"
         ],
         "Difficulty": "Hard"
     },
@@ -1184,7 +1198,7 @@
         "Image": "images/characters/Lu_Ten.jpg",
         "Hints": [
             "This character is mentioned often by name, but passed away before the events of Avatar: The Last Airbender.",
-            "This character is related to Zuko."
+            "This character is related to Uncle Iroh."
         ],
         "Difficulty": "Hard"
     },
@@ -1229,7 +1243,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "None"
+            "Fire Nation Military"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -1281,7 +1295,8 @@
         ],
         "Affiliation/Group": [
             "Invasion Fighters",
-            "Southern Water Tribe Leadership"
+            "Southern Water Tribe Leadership",
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -1332,7 +1347,7 @@
             "Waterbender"
         ],
         "Special Skills": [
-            "None"
+            "Healing"
         ],
         "Affiliation/Group": [
             "Kataang Descendants"
@@ -1438,7 +1453,7 @@
             "Healing"
         ],
         "Affiliation/Group": [
-            "None"
+            "Bending Instructor"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -1488,7 +1503,7 @@
             "Bloodbending"
         ],
         "Affiliation/Group": [
-            "None"
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -1620,10 +1635,11 @@
             "Airbender"
         ],
         "Special Skills": [
-            "Air Surfing"
+            "None"
         ],
         "Affiliation/Group": [
-            "Air Monks"
+            "Air Nation Leadership",
+            "Bending Instructor"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -1708,7 +1724,8 @@
         ],
         "Affiliation/Group": [
             "Kataang Descendants",
-            "United Forces"
+            "United Forces",
+            "New Air Nation"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -2040,7 +2057,7 @@
             "Firebender"
         ],
         "Special Skills": [
-            "None"
+            "Jet Propulsion"
         ],
         "Affiliation/Group": [
             "White Lotus",
@@ -2198,7 +2215,8 @@
             "Swordsmanship"
         ],
         "Affiliation/Group": [
-            "Freedom Fighters"
+            "Freedom Fighters",
+            "Dai Li"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -2360,7 +2378,9 @@
             "Avatars",
             "Team Avatar",
             "Invasion Fighters",
-            "Earth Rumble Six Fighters"
+            "Earth Rumble Six Fighters",
+            "Fire Nation Prisoners",
+            "Fire Nation School"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -2393,8 +2413,7 @@
             "Avatar State",
             "Metalbending",
             "Healing",
-            "Spiritbending",
-            "Pro-bending"
+            "Spiritbending"
         ],
         "Affiliation/Group": [
             "Avatars",
@@ -2437,7 +2456,7 @@
             "This character first appears in Book 1 of The Legend of Korra.",
             "\u201cWe knew one day the world would need you, and you wouldn't need us anymore.\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "Katara",
@@ -2485,7 +2504,7 @@
         ],
         "Affiliation/Group": [
             "Team Avatar",
-            "Republic City Council",
+            "United Republic Leadership",
             "Invasion Fighters"
         ],
         "Appearances": [
@@ -2496,7 +2515,7 @@
         "Image": "images/characters/Sokka.jpg",
         "Hints": [
             "This character first appears in Book 1 of Avatar: The Last Airbender.",
-            "\u201cYou think you're so smart, with your fancy little words. This is not so hard\u201d"
+            "\u201cYou think you're so smart, with your fancy little words. This is not so hard.\u201d"
         ],
         "Difficulty": "Easy"
     },
@@ -2550,7 +2569,7 @@
         "Affiliation/Group": [
             "Team Avatar",
             "Kyoshi Warriors",
-            "Boiling Rock Prisoners"
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -2581,7 +2600,7 @@
             "Team Avatar",
             "Fire Nation Royal Family",
             "Bending Instructor",
-            "Boiling Rock Prisoners"
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -2614,7 +2633,9 @@
         "Affiliation/Group": [
             "White Lotus",
             "Fire Nation Royal Family",
-            "Bending Instructor"
+            "Bending Instructor",
+            "Fire Nation Prisoners",
+            "Fire Nation Military"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -2640,7 +2661,8 @@
             "Firebender"
         ],
         "Special Skills": [
-            "Lightning Generation"
+            "Lightning Generation",
+            "Jet Propulsion"
         ],
         "Affiliation/Group": [
             "Fire Nation Royal Family",
@@ -2669,8 +2691,7 @@
         ],
         "Special Skills": [
             "Lightning Generation",
-            "Lightning Redirection",
-            "Pro-bending"
+            "Lightning Redirection"
         ],
         "Affiliation/Group": [
             "Team Avatar",
@@ -2698,8 +2719,7 @@
             "Earthbender"
         ],
         "Special Skills": [
-            "Lavabending",
-            "Pro-bending"
+            "Lavabending"
         ],
         "Affiliation/Group": [
             "Team Avatar",
@@ -2729,7 +2749,8 @@
             "Electrocution"
         ],
         "Affiliation/Group": [
-            "Team Avatar"
+            "Team Avatar",
+            "Future Industries"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -2754,7 +2775,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "The Equalists"
+            "The Equalists",
+            "Future Industries"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -2781,7 +2803,8 @@
             "Seismic Sense"
         ],
         "Affiliation/Group": [
-            "Beifong Family"
+            "Beifong Family",
+            "Republic City Police"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -2809,8 +2832,10 @@
         ],
         "Affiliation/Group": [
             "Kataang Descendants",
-            "Air Monks",
-            "Bending Instructor"
+            "Air Nation Leadership",
+            "Bending Instructor",
+            "New Air Nation",
+            "United Republic Leadership"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -3006,7 +3031,7 @@
         "Image": "images/characters/Mula.jpg",
         "Hints": [
             "This animals only appearance is in Book 2 of The Legend of Korra.",
-            "This animal is an Avatar's Animal Guide."
+            "This animal belongs to an Avatar."
         ],
         "Difficulty": "Hard"
     },
@@ -3035,7 +3060,7 @@
         "Image": "images/characters/Appa.jpg",
         "Hints": [
             "This animal first appeared in Book 1 of Avatar: The Last Airbender.",
-            "This animal is an Avatar's Animal Guide."
+            "This animal belongs to an Avatar."
         ],
         "Difficulty": "Easy"
     },
@@ -3106,7 +3131,7 @@
             "Combustionbending"
         ],
         "Affiliation/Group": [
-            "None"
+            "Bounty Hunters"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -3115,7 +3140,7 @@
         "Image": "images/characters/Combustion_Man__Sparky_Sparky_Boom_Man_.jpg",
         "Hints": [
             "This character first appeared in Book 3 of Avatar: The Last Airbender",
-            "This character is an antagonist who never speaks, but is considered extremely dangerous."
+            "This character is an antagonist who never speaks, despite appearing in multiple episodes."
         ],
         "Difficulty": "Medium"
     },
@@ -3133,7 +3158,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Team Avatar"
+            "Team Avatar",
+            "Bending Instructors"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3159,7 +3185,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Earth Kingdom Leadership"
+            "Earth Kingdom Leadership",
+            "Bending Instructors"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3185,7 +3212,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Team Avatar"
+            "Team Avatar",
+            "Bending Instructors"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3211,7 +3239,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Team Avatar"
+            "Team Avatar",
+            "Bending Instructors"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3237,7 +3266,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Pirates"
+            "Daofei"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3264,7 +3293,8 @@
         ],
         "Affiliation/Group": [
             "Team Avatar",
-            "Flying Opera Company"
+            "Flying Opera Company",
+            "Daofei"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3293,7 +3323,8 @@
         "Affiliation/Group": [
             "Team Avatar",
             "Flying Opera Company",
-            "Bending Instructor"
+            "Bending Instructor",
+            "Daofei"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3321,7 +3352,8 @@
         "Affiliation/Group": [
             "Team Avatar",
             "Flying Opera Company",
-            "Bending Instructor"
+            "Bending Instructor",
+            "Daofei"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -3482,10 +3514,12 @@
             "Earthbender"
         ],
         "Special Skills": [
-            "Brainwashing"
+            "None"
         ],
         "Affiliation/Group": [
-            "Dai Li"
+            "Dai Li",
+            "Ba Sing Se",
+            "Earth Kingdom Leadership"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -3511,7 +3545,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Earth Rumble Six Fighters"
+            "Earth Rumble Six Fighters",
+            "Bounty Hunters"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -3537,7 +3572,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Bending Instructor"
+            "Bending Instructors",
+            "Bounty Hunters"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -3756,8 +3792,7 @@
             "Lavabending"
         ],
         "Affiliation/Group": [
-            "Avatars",
-            "Fire Nation Leadership"
+            "Avatars"
         ],
         "Appearances": [
             "Avatar Comics",
@@ -3783,7 +3818,8 @@
             "Criminal Connections"
         ],
         "Affiliation/Group": [
-            "Triple Threat Triad"
+            "Triple Threat Triad",
+            "Republic City Criminals"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -3804,7 +3840,7 @@
         "Place of Origin": "United Republic",
         "Bending type": "Earthbender",
         "Special Skills": [
-            "Pro-bending"
+            "None"
         ],
         "Affiliation/Group": [
             "Pro-bending"
@@ -3833,7 +3869,8 @@
             "Lightning Generation"
         ],
         "Affiliation/Group": [
-            "Triple Threat Triad"
+            "Triple Threat Triad",
+            "Republic City Criminals"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -3881,7 +3918,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Mako and Bolin's Family"
+            "Mako and Bolin's Family",
+            "Ba Sing Se"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -3905,7 +3943,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Mako and Bolin's Family"
+            "Mako and Bolin's Family",
+            "Ba Sing Se"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -3930,7 +3969,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Earth Kingdom Leadership"
+            "Earth Kingdom Leadership",
+            "Ba Sing Se"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -3954,7 +3994,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "None"
+            "Republic City Criminals"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -4006,7 +4046,7 @@
             "Bloodbending"
         ],
         "Affiliation/Group": [
-            "Criminal Underworld"
+            "Republic City Criminals"
         ],
         "Appearances": [
             "The Legend of Korra"
@@ -4056,7 +4096,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Triple Threat Triad"
+            "Triple Threat Triad",
+            "Republic City Criminals"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -4067,7 +4108,7 @@
             "This character first appears in Book 1 of The Legend of Korra.",
             "\u201cYou just gotta relax, like me. Maybe try taking your shoes off.\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "Dock/Xu/Bushi",
@@ -4091,7 +4132,7 @@
             "This character's only appearance is in Book 3 of Avatar: The Last Airbender.",
             "\u201cWould you like the one-headed fish, or the two-headed fish?\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "The Painted Lady",
@@ -4182,7 +4223,8 @@
             "Lightning Generation"
         ],
         "Affiliation/Group": [
-            "Yellow Necks"
+            "Yellow Necks",
+            "Daofei"
         ],
         "Appearances": [
             "Kyoshi Novels"
@@ -4252,7 +4294,7 @@
         ],
         "Place of Origin": "Northern Water Tribe",
         "Bending type": [
-            "Unknown"
+            "Waterbender"
         ],
         "Special Skills": [
             "None"
@@ -4282,7 +4324,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Bin-Er Leadership"
+            "Zongdu"
         ],
         "Appearances": [
             "Yangchen Novels"
@@ -4308,7 +4350,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Air Nuns"
+            "None"
         ],
         "Appearances": [
             "Yangchen Novels"
@@ -4367,7 +4409,7 @@
         "Image": "images/characters/Nujian.jpg",
         "Hints": [
             "This animal first appeared in 'The Rift' comics.",
-            "This animal is an Avatar's Animal Guide."
+            "This animal belongs to an Avatar."
         ],
         "Difficulty": "Medium"
     },
@@ -4487,7 +4529,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Bin-Er Leadership"
+            "Zongdu"
         ],
         "Appearances": [
             "Yangchen Novels"
@@ -4608,7 +4650,8 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Dai Li"
+            "Dai Li",
+            "Ba Sing Se"
         ],
         "Appearances": [
             "Avatar: The Last Airbender",
@@ -4666,7 +4709,7 @@
         ],
         "Image": "images/characters/Yue.jpg",
         "Hints": [
-            "This character first appears in Book 1 of The Legend of Korra.",
+            "This character first appears in Book 1 of Avatar: The Last Airbender.",
             "\u201cIt gave me life. Maybe I can give it back.\u201d"
         ],
         "Difficulty": "Easy"
@@ -4744,7 +4787,7 @@
             "This character first appears in Book 1 of Avatar: The Last Airbender as a background character, but their first lines of dialogue are in The Promise comic trilogy.",
             "\u201cMaybe we've been thinking about this all wrong. What if Yu Dao is neither Fire Nation nor Earth Kingdom?\u201d"
         ],
-        "Difficulty": "Medium"
+        "Difficulty": "Hard"
     },
     {
         "Name": "Kori Morishita",
@@ -4980,7 +5023,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Boiling Rock Prisoners"
+            "Fire Nation Prisoners"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -5028,7 +5071,6 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Air Nuns",
             "Team Avatar",
             "Bending Instructor"
         ],
@@ -5171,7 +5213,7 @@
         "Place of Origin": "Fire Nation",
         "Bending type": "None",
         "Special Skills": [
-            "Swordfighting"
+            "Swordsmanship"
         ],
         "Affiliation/Group": [
             "Fire Nation Royal Family"
@@ -5218,7 +5260,7 @@
             "None"
         ],
         "Affiliation/Group": [
-            "Spiritual Mentor"
+            "None"
         ],
         "Appearances": [
             "Avatar: The Last Airbender"
@@ -5271,8 +5313,7 @@
         "Image": "images/characters/Lee.jpg",
         "Hints": [
             "This character's only appearance is in Book 2 of Avatar: The Last Airbender.",
-            "\u201cI think you'd really like my brother Sensu. He used to show me stuff like this all the time.\u201d",
-            "This character is from the episode 'Zuko Alone'."
+            "\u201cI think you'd really like my brother Sensu. He used to show me stuff like this all the time.\u201d"
         ],
         "Difficulty": "Hard"
     },
@@ -5364,7 +5405,8 @@
         ],
         "Image": "images/characters/Chin_the_Conqueror.jpg",
         "Hints": [
-            "This character only appears in flashbacks in Avatar: The Last Airbender, though he was the focal point of an entire episode in Book 2."
+            "This character only appears in flashbacks in Avatar: The Last Airbender, though he was the focal point of an entire episode in Book 2.",
+            "This character lived during Avatar Kyoshi's time."
         ],
         "Difficulty": "Hard"
     },
@@ -5386,7 +5428,29 @@
         "Image": "images/characters/Flopsie.jpg",
         "Hints": [
             "This animal first appears in Book 1 of Avatar: The Last Airbender.",
-            "This animal is the pet of one of Aang's childhood friends."
+            "This animal is the pet of an Earth Kingdom Leader."
+        ],
+        "Difficulty": "Hard"
+    },
+    {
+        "Name": "Bosco",
+        "Gender": "Male",
+        "Species": "Animal",
+        "Place of Origin": "Earth Kingdom",
+        "Bending type": "None",
+        "Special Skills": [
+            "None"
+        ],
+        "Affiliation/Group": [
+            "Pet"
+        ],
+        "Appearances": [
+            "Avatar: The Last Airbender"
+        ],
+        "Image": "images/characters/Bosco.jpg",
+        "Hints": [
+            "This animal first appears in Book 2 of Avatar: The Last Airbender.",
+            "This animal is the pet of an Earth Kingdom Leader."
         ],
         "Difficulty": "Hard"
     }
