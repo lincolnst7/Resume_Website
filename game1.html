@@ -56,8 +56,11 @@
                 </div>
             </div>
             <div class="guess-input-container">
-                <input type="text" id="characterInput" placeholder="Enter character name...">
-                <div id="autoComplete" class="autocomplete-items"></div>
+                <div class="input-wrapper">
+                    <input type="text" id="characterInput" placeholder="Enter character name...">
+                    <div id="autoComplete" class="autocomplete-items"></div>
+                </div>
+                <button id="submitGuess" class="submit-arrow" aria-label="Submit guess">→</button>
             </div>
             <div id="columnHint" class="column-hint" style="display: none;">
                 Click the column headers to see all possible values
@@ -83,7 +86,7 @@
                 <button id="closeInstructions" class="close-button">&times;</button>
                 <div class="game-instructions">
                     <h2 class="instructions-title">HOW TO PLAY</h2>
-                    <p>Type a character's name into the box, and the<br>game will show you information about that character.</p>
+                    <p>Type a character's name into the box, and the game will show you information about that character.</p>
                     
                     <div class="instruction-boxes">
                         <div class="instruction-box green">

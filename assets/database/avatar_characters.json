@@ -2724,7 +2724,8 @@
         "Affiliation/Group": [
             "Team Avatar",
             "Earth Empire",
-            "Pro-bending"
+            "Pro-bending",
+            "Varrick Enterprises"
         ],
         "Appearances": [
             "The Legend of Korra",
@@ -5451,6 +5452,94 @@
         "Hints": [
             "This animal first appears in Book 2 of Avatar: The Last Airbender.",
             "This animal is the pet of an Earth Kingdom Leader."
+        ],
+        "Difficulty": "Hard"
+    },
+    {
+        "Name": "Ginger",
+        "Gender": "Female",
+        "Species": "Human",
+        "Place of Origin": "United Republic",
+        "Bending type": "None",
+        "Special Skills": [
+            "None"
+        ],
+        "Affiliation/Group": [
+            "Varrick Enterprises"
+        ],
+        "Appearances": [
+            "The Legend of Korra"
+        ],
+        "Image": "images/characters/Ginger.jpg",
+        "Hints": [
+            "This character first appears in Book 2 of The Legend of Korra.",
+            "\u201cBolin, you're a doll, but you're as dumb as the rocks you bend. We are NOT a couple.\u201d"
+        ],
+        "Difficulty": "Hard"
+    },
+    {
+        "Name": "Chong",
+        "Gender": "Male",
+        "Species": "Human",
+        "Place of Origin": "Earth Kingdom",
+        "Bending type": "None",
+        "Special Skills": [
+            "None"
+        ],
+        "Affiliation/Group": [
+            "Nomads"
+        ],
+        "Appearances": [
+            "Avatar: The Last Airbender", "Avatar Comics"
+        ],
+        "Image": "images/characters/Chong.jpg",
+        "Hints": [
+            "This character first appears in Book 2 of Avatar: The Last Airbender",
+            "\u201cWe're nomads, happy to go wherever the wind takes us!\u201d"
+        ],
+        "Difficulty": "Hard"
+    },
+    {
+        "Name": "Lily",
+        "Gender": "Female",
+        "Species": "Human",
+        "Place of Origin": "Earth Kingdom",
+        "Bending type": "None",
+        "Special Skills": [
+            "None"
+        ],
+        "Affiliation/Group": [
+            "Nomads"
+        ],
+        "Appearances": [
+            "Avatar: The Last Airbender", "Avatar Comics"
+        ],
+        "Image": "images/characters/Lily.jpg",
+        "Hints": [
+            "This character first appears in Book 2 of Avatar: The Last Airbender",
+            "\u201cYou've gotta focus less on the 'where' and more on the 'going'.\u201d"
+        ],
+        "Difficulty": "Hard"
+    },
+    {
+        "Name": "Moku",
+        "Gender": "Male",
+        "Species": "Human",
+        "Place of Origin": "Earth Kingdom",
+        "Bending type": "None",
+        "Special Skills": [
+            "None"
+        ],
+        "Affiliation/Group": [
+            "Nomads"
+        ],
+        "Appearances": [
+            "Avatar: The Last Airbender", "Avatar Comics"
+        ],
+        "Image": "images/characters/Moku.jpg",
+        "Hints": [
+            "This character first appears in Book 2 of Avatar: The Last Airbender",
+            "\u201cOn the way, there's a waterfall that creates a never-ending rainbow!\u201d"
         ],
         "Difficulty": "Hard"
     }

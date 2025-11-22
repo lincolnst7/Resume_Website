@@ -792,6 +792,8 @@ function showHint() {
     const hintDisplay = document.getElementById('hintDisplay');
     const hintTitle = document.querySelector('.hint-title');
     const hintText = document.querySelector('.hint-text');
+    const characterInput = document.getElementById('characterInput');
+    const isMobile = window.matchMedia('(max-width: 600px)').matches;
 
     // Check if target character has hints
     if (!targetCharacter.Hints || !Array.isArray(targetCharacter.Hints) || targetCharacter.Hints.length === 0) {
@@ -830,11 +832,22 @@ function showHint() {
     // Show the hint display if it's the first hint
     if (hintIndex === 0) {
         hintDisplay.style.display = 'block';
+
+        if (isMobile) {
+            // Close the keyboard so the new hint is visible without extra scrolling
+            if (document.activeElement === characterInput) {
+                characterInput.blur();
+            }
+            setTimeout(() => {
+                hintDisplay.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 50);
+        } else {
+            hintDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
     }
 
-    // Automatically focus the input box so player can continue typing
-    const characterInput = document.getElementById('characterInput');
-    if (characterInput) {
+    // Automatically focus the input box so desktop players can keep typing
+    if (!isMobile && characterInput) {
         setTimeout(() => {
             characterInput.focus();
         }, 100); // Small delay to ensure hint display is rendered first
@@ -1026,6 +1039,22 @@ document.getElementById('columnInfoOverlay').addEventListener('click', (e) => {
 // Event listeners
 playButton.addEventListener('click', openSettingsModal);
 replayButton.addEventListener('click', startGame);
+
+// Submit arrow button
+const submitArrow = document.getElementById('submitGuess');
+if (submitArrow) {
+    submitArrow.addEventListener('click', () => {
+        if (characterInput.value) {
+            const enterEvent = new KeyboardEvent('keypress', {
+                key: 'Enter',
+                keyCode: 13,
+                which: 13,
+                bubbles: true
+            });
+            characterInput.dispatchEvent(enterEvent);
+        }
+    });
+}
 characterInput.addEventListener('input', handleInput);
 characterInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter' && characterInput.value) {

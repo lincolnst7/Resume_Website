@@ -130,7 +130,8 @@
       /* Mobile responsive */
         @media (max-width: 768px) {
         .game-embed-container {
-          padding: 160px 10px 40px 10px;
+          padding: 120px 10px 40px 10px;
+          min-height: auto;
         }        .game-frame-wrapper {
           border-radius: 12px;
         }
@@ -160,6 +161,14 @@
         .fullscreen-btn {
           width: 100%;
           justify-content: center;
+        }
+        
+        .game-frame-wrapper.expanded .fullscreen-btn span {
+          display: none;
+        }
+        
+        .fullscreen-btn i {
+          font-size: 20px;
         }
       }
       
@@ -303,7 +312,7 @@
           </a>
           <button id="fullscreenBtn" class="fullscreen-btn">
             <i class="ri-fullscreen-line"></i>
-            Go Fullscreen
+            <span>Go Fullscreen</span>
           </button>
         </div>
       </div>
@@ -325,11 +334,11 @@
         
         // Update button text and icon
         if (isExpanded) {
-          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-exit-line"></i>Exit Fullscreen';
+          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-exit-line"></i><span>Exit Fullscreen</span>';
           document.body.style.overflow = 'hidden'; // Prevent scrolling
           backLink.style.display = 'none'; // Hide back link
         } else {
-          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line"></i>Go Fullscreen';
+          fullscreenBtn.innerHTML = '<i class="ri-fullscreen-line"></i><span>Go Fullscreen</span>';
           document.body.style.overflow = ''; // Restore scrolling
           backLink.style.display = ''; // Show back link
         }
