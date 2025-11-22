@@ -511,7 +511,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: transparent;
-    border: none;
+    border: 2px solid #93acbe;
     padding: 0.8rem 1.2rem;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -523,7 +523,6 @@ body {
     min-width: 50px;
     height: 49px;
     flex-shrink: 0;
-    filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.3));
 }
 
 .submit-arrow:hover {
