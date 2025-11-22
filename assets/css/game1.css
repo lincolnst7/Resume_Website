@@ -641,7 +641,7 @@ body {
     .autocomplete-items {
         position: absolute;
         left: 0;
-        top: calc(100% - 5px);
+        top: calc(100% - 3px);
         z-index: 1000;
         width: 100%;
         max-height: 200px;
