@@ -632,6 +632,17 @@ function displayGuess(character, results) {
             } else {
                 cell.textContent = Array.isArray(character[key]) ? 
                     character[key].join(', ') : character[key];
+                
+                // Check if text overflows and reduce font size if needed
+                requestAnimationFrame(() => {
+                    if (cell.scrollHeight > cell.clientHeight || cell.scrollWidth > cell.clientWidth) {
+                        let fontSize = parseFloat(window.getComputedStyle(cell).fontSize);
+                        while ((cell.scrollHeight > cell.clientHeight || cell.scrollWidth > cell.clientWidth) && fontSize > 12) {
+                            fontSize -= 0.5;
+                            cell.style.fontSize = fontSize + 'px';
+                        }
+                    }
+                });
             }
             // Add delay for fade-in animation
             setTimeout(() => cell.style.opacity = 1, index * 100);
